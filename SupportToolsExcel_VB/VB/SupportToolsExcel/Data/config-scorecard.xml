@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<WorkBookInfo>
+	<DefinedNames>
+		<name name="FollowUp_Questions_Location" targetRange="=Lookups!$R12C2" />
+		<name name="ITR_Data_Backlog_Location" targetRange="=Lookups!R35C2"/>
+		<name name="ITR_Data_Closed_Location" targetRange="=Lookups!R34C2"/>
+		<name name="ITR_Data_Open_Location" targetRange="=Lookups!R33C2"/>
+		<name name="ITR_Data_Team_Location" targetRange="=Lookups!R32C2"/>
+		<name name="Previous_Period_Lookup" targetRange="=Lookups!R4C2"/>
+		<name name="Previous_Period_Team_Vector" targetRange="=Lookups!R4C2"/>
+		<name name="Previous_Period_Value_Vector" targetRange="=Lookups!R5C2"/>
+		<name name="Primary_Questions_Location" targetRange="=Lookups!R11C2"/>
+		<name name="Questions_Location" targetRange="=Lookups!R8C2"/>
+		<name name="Row_Width_Location" targetRange="=Lookups!R9C2"/>
+		<name name="Statistics_Location" targetRange="=Lookups!R10C2"/>
+		<name name="Survey_Period" targetRange="='Scorecard - Individual Team'!R2C5"/>
+		<name name="Team_Manager_Lookup" targetRange="=Lookups!R14C2"/>
+		<name name="Team_Name" targetRange="='Scorecard - Individual Team'!R2C2"/>
+		<name name="Team_Name_Lookup" targetRange="=Lookups!R7C2"/>
+		<name name="Team_Names" targetRange="=Teams!R5C2:R20C2"/>
+		<name name="TeamName_To_Cell_Array" targetRange="=Lookups!R70C1:R90C2"/>
+		<name name="TeamName_To_Column_Array" targetRange="=Lookups!R43C1:R63C2"/>
+		<name name="Yes_No_Lookup" targetRange="=Lookups!R29C1:R30C2"/>
+	</DefinedNames>
+	<ScorecardInfo>
+		<PowerPointTemplate Path="\\ind-svr-02\projdata2\LDM\Templates\8-Other\" Name="Scorecard Survey Results template.pot"/>
+		<WordTemplate Path="\\ind-svr-02\projdata2\LDM\Templates\8-Other\" Name="Scorecard Survey Results template.dot"/>		
+	</ScorecardInfo>
+</WorkBookInfo>

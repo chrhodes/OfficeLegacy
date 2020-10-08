@@ -1,0 +1,537 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--
+    This section defines project-level properties.
+
+    AssemblyName
+      Name of the output assembly.
+    Configuration
+      Specifies a default value for debug.
+    OutputType
+      Must be "Library" for VSTO.
+    Platform
+      Specifies what CPU the output of this project can run on.
+    NoStandardLibraries
+      Set to "false" for VSTO.
+    RootNamespace
+      In C#, this specifies the namespace given to new files. In VB, all objects are
+      wrapped in this namespace at runtime.
+  -->
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <ProjectTypeGuids>{BAA0C2D2-18E2-41B9-852F-F413020CAA33};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C3332038-2203-4F12-8ADE-C2FAB6076027}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <RootNamespace>SupportTools_Excel</RootNamespace>
+    <AssemblyName>SupportTools_Excel</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <DefineConstants>VSTO40</DefineConstants>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <IsWebBootstrapper>False</IsWebBootstrapper>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <VSTO_TrustAssembliesLocation>true</VSTO_TrustAssembliesLocation>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <PublishUrl>F:\Publish\SupportTools_Excel\</PublishUrl>
+    <InstallUrl />
+    <TargetCulture>en</TargetCulture>
+    <ApplicationVersion>1.0.0.24</ApplicationVersion>
+    <AutoIncrementApplicationRevision>true</AutoIncrementApplicationRevision>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>days</UpdateIntervalUnits>
+    <ProductName>SupportTools_Excel</ProductName>
+    <PublisherName />
+    <SupportUrl />
+    <FriendlyName>SupportTools_Excel</FriendlyName>
+    <OfficeApplicationDescription />
+    <LoadBehavior>3</LoadBehavior>
+  </PropertyGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Office.PIARedist.2007">
+      <Visible>False</Visible>
+      <ProductName>Microsoft Office 2007 Primary Interop Assemblies</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <!--<BootstrapperPackage Include="Microsoft.VSTORuntime.4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft Visual Studio 2010 Tools for Office Runtime %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>-->
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <PropertyGroup>
+    <!--
+      OfficeApplication
+        Add-in host application
+    -->
+    <OfficeApplication>Excel</OfficeApplication>
+  </PropertyGroup>
+  <!--
+    This section defines properties that are set when the "Debug" configuration is selected.
+
+    DebugSymbols
+      If "true", create symbols (.pdb). If "false", do not create symbols.
+    DefineConstants
+      Constants defined for the preprocessor.
+    EnableUnmanagedDebugging
+      If "true", starting the debugger will attach both managed and unmanaged debuggers.
+    Optimize
+      If "true", optimize the build output. If "false", do not optimize.
+    OutputPath
+      Output path of project relative to the project file.
+    WarningLevel
+      Warning level for the compiler.
+  -->
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>$(DefineConstants);DEBUG;TRACE</DefineConstants>
+    <WarningLevel>4</WarningLevel>
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Program Files\Microsoft Office\Office14\EXCEL.EXE</StartProgram>
+    <!--<RegisterForComInterop>true</RegisterForComInterop>-->
+  </PropertyGroup>
+  <!--
+    This section defines properties that are set when the "Release" configuration is selected.
+
+    DebugSymbols
+      If "true", create symbols (.pdb). If "false", do not create symbols.
+    DefineConstants
+      Constants defined for the preprocessor.
+    EnableUnmanagedDebugging
+      If "true", starting the debugger will attach both managed and unmanaged debuggers.
+    Optimize
+      If "true", optimize the build output. If "false", do not optimize.
+    OutputPath
+      Output path of project relative to the project file.
+    WarningLevel
+      Warning level for the compiler.
+  -->
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>$(DefineConstants);TRACE</DefineConstants>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <!--
+    This section enables pre- and post-build steps. However, in VSTO use
+    MSBuild tasks instead of these properties.       
+  -->
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>
+    </ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>A70A4FF3B0A5A5AB8012A7D359393527ACF01509</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <!--
+    This section specifies references for the project.
+  -->
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="AddinHelper">
+      <HintPath>..\..\Common\AddinHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="AssemblyHelper, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Common\AssemblyHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Tools, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Tools.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.ConnectionInfo, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files\Microsoft SQL Server\100\SDK\Assemblies\Microsoft.SqlServer.ConnectionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Management.Sdk.Sfc, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files\Microsoft SQL Server\100\SDK\Assemblies\Microsoft.SqlServer.Management.Sdk.Sfc.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Smo, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files\Microsoft SQL Server\100\SDK\Assemblies\Microsoft.SqlServer.Smo.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.SmoExtended, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files\Microsoft SQL Server\100\SDK\Assemblies\Microsoft.SqlServer.SmoExtended.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.SqlEnum, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files\Microsoft SQL Server\100\SDK\Assemblies\Microsoft.SqlServer.SqlEnum.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.SqlWmiManagement, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files\Microsoft SQL Server\100\SDK\Assemblies\Microsoft.SqlServer.SqlWmiManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.WmiEnum, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files\Microsoft SQL Server\100\SDK\Assemblies\Microsoft.SqlServer.WmiEnum.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Tools.Applications.Runtime, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Office, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="PacificLife.Life.PLLog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a2ac78edf2dcdecc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLLs\PacificLife.Life.PLLog.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+    <!--<Reference Include="WPFToolkit.Extended">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.1.6.0\lib\net40\WPFToolkit.Extended.dll</HintPath>
+    </Reference>-->
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Tools.v4.0.Framework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Office.Tools.Excel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Tools.Common.v4.0.Utilities, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <!--
+    This section defines the user source files that are part of the project.
+     
+    A "Compile" element specifies a source file to compile.
+    An "EmbeddedResource" element specifies an .resx file for embedded resources.
+    A "None" element specifies a file that is not to be passed to the compiler (for instance, 
+    a text file or XML file).
+    The "AppDesigner" element specifies the directory where the application properties files
+    can be found.
+  -->
+  <ItemGroup>
+    <Compile Include="Actions\Excel_PageFormatting.cs" />
+    <Compile Include="Actions\Excel_TableOfContents.cs" />
+    <Compile Include="Common.cs" />
+    <Compile Include="Data\ApplicationDS.cs">
+      <DependentUpon>ApplicationDS.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Data\ApplicationDS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ApplicationDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Config.cs" />
+    <Compile Include="Events\ExcelAppEvents.cs" />
+    <Compile Include="Actions\Excel_FolderMaps.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UDF.cs" />
+    <Compile Include="User Interface\Forms\frmExcel_FolderMaps.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User Interface\Forms\frmExcel_FolderMaps.Designer.cs">
+      <DependentUpon>frmExcel_FolderMaps.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Interface\Forms\frmITRDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User Interface\Forms\frmITRDetail.Designer.cs">
+      <DependentUpon>frmITRDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Interface\Ribbon\Ribbon.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="User Interface\Ribbon\Ribbon.designer.cs">
+      <DependentUpon>Ribbon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Interface\Task Panes\TaskPane_AppUtil.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Interface\Task Panes\TaskPane_AppUtil.designer.cs">
+      <DependentUpon>TaskPane_AppUtil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Interface\Task Panes\TaskPane_Config.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Interface\Task Panes\TaskPane_Config.Designer.cs">
+      <DependentUpon>TaskPane_Config.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Interface\Task Panes\TaskPane_ExcelUtil.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Interface\Task Panes\TaskPane_ExcelUtil.Designer.cs">
+      <DependentUpon>TaskPane_ExcelUtil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Interface\Task Panes\TaskPane_Help.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Interface\Task Panes\TaskPane_Help.Designer.cs">
+      <DependentUpon>TaskPane_Help.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Interface\Task Panes\TaskPane_ITRs.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Interface\Task Panes\TaskPane_ITRs.Designer.cs">
+      <DependentUpon>TaskPane_ITRs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Interface\Task Panes\TaskPane_LogParser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Interface\Task Panes\TaskPane_LogParser.Designer.cs">
+      <DependentUpon>TaskPane_LogParser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Interface\Task Panes\TaskPane_LTC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Interface\Task Panes\TaskPane_LTC.designer.cs">
+      <DependentUpon>TaskPane_LTC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Interface\Task Panes\TaskPane_NetworkTrace.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Interface\Task Panes\TaskPane_NetworkTrace.Designer.cs">
+      <DependentUpon>TaskPane_NetworkTrace.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Interface\Task Panes\TaskPane_SQLSMO.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Interface\Task Panes\TaskPane_SQLSMO.designer.cs">
+      <DependentUpon>TaskPane_SQLSMO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Interface\User Controls\ucDBInstanceList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Interface\User Controls\ucDBInstanceList.Designer.cs">
+      <DependentUpon>ucDBInstanceList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Interface\User Controls WPF\UserControl1.xaml.cs">
+      <DependentUpon>UserControl1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="User Interface\User Controls\ucEnvironmentList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Interface\User Controls\ucEnvironmentList.Designer.cs">
+      <DependentUpon>ucEnvironmentList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Interface\User Controls\ucFileTypeList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Interface\User Controls\ucFileTypeList.Designer.cs">
+      <DependentUpon>ucFileTypeList.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="User Interface\Forms\frmExcel_FolderMaps.resx">
+      <DependentUpon>frmExcel_FolderMaps.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Interface\Forms\frmITRDetail.resx">
+      <DependentUpon>frmITRDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Interface\Ribbon\Ribbon.resx">
+      <DependentUpon>Ribbon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Interface\Task Panes\TaskPane_AppUtil.resx">
+      <DependentUpon>TaskPane_AppUtil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Interface\Task Panes\TaskPane_Config.resx">
+      <DependentUpon>TaskPane_Config.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Interface\Task Panes\TaskPane_ExcelUtil.resx">
+      <DependentUpon>TaskPane_ExcelUtil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Interface\Task Panes\TaskPane_Help.resx">
+      <DependentUpon>TaskPane_Help.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Interface\Task Panes\TaskPane_ITRs.resx">
+      <DependentUpon>TaskPane_ITRs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Interface\Task Panes\TaskPane_LogParser.resx">
+      <DependentUpon>TaskPane_LogParser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Interface\Task Panes\TaskPane_LTC.resx">
+      <DependentUpon>TaskPane_LTC.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Interface\Task Panes\TaskPane_NetworkTrace.resx">
+      <DependentUpon>TaskPane_NetworkTrace.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Interface\Task Panes\TaskPane_SQLSMO.resx">
+      <DependentUpon>TaskPane_SQLSMO.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Interface\User Controls\ucDBInstanceList.resx">
+      <DependentUpon>ucDBInstanceList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Interface\User Controls\ucEnvironmentList.resx">
+      <DependentUpon>ucEnvironmentList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Interface\User Controls\ucFileTypeList.resx">
+      <DependentUpon>ucFileTypeList.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="Data\ApplicationDS.xsc">
+      <DependentUpon>ApplicationDS.xsd</DependentUpon>
+    </None>
+    <None Include="Data\ApplicationDS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ApplicationDS.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Data\ApplicationDS.xss">
+      <DependentUpon>ApplicationDS.xsd</DependentUpon>
+    </None>
+    <None Include="Office2010Addin_Template_Excel_TemporaryKey.pfx" />
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\SupportTools_Excel.User_Interface.Task_Panes.TaskPane_LTC.datasource" />
+    <None Include="Properties\DataSources\SupportTools_Excel.User_Interface.User_Controls.DBInstanceList.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ThisAddIn.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <None Include="ThisAddIn.Designer.xml">
+      <DependentUpon>ThisAddIn.cs</DependentUpon>
+    </None>
+    <Compile Include="ThisAddIn.Designer.cs">
+      <DependentUpon>ThisAddIn.Designer.xml</DependentUpon>
+    </Compile>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\MTreatyFileTypeList.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\add footer.bmp" />
+    <Content Include="Resources\Auto-Debug-System_icon.gif" />
+    <Content Include="Resources\Chart.bmp" />
+    <Content Include="Resources\add header.bmp" />
+    <Content Include="Resources\group down all.bmp" />
+    <Content Include="Resources\folder map.bmp" />
+    <Content Include="Resources\format landscape.bmp" />
+    <Content Include="Resources\format portrait.bmp" />
+    <Content Include="Resources\group down.bmp" />
+    <Content Include="Resources\protect sheets.bmp" />
+    <Content Include="Resources\search down.bmp" />
+    <Content Include="Resources\search left.bmp" />
+    <Content Include="Resources\search right.bmp" />
+    <Content Include="Resources\search up.bmp" />
+    <Content Include="Resources\table of contents.bmp" />
+    <Content Include="Resources\ungroup selection.bmp" />
+    <Content Include="Resources\unprotect sheets.bmp" />
+    <Content Include="Resources\WatchWindow.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\SMOHelper\SMOHelper.csproj">
+      <Project>{E572DFB9-4A2F-4D14-887D-0E5EB1D36B2F}</Project>
+      <Name>SMOHelper</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="User Interface\User Controls WPF\UserControl1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup />
+  <!-- Include the build rules for a C# project. -->
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- Include additional build rules for an Office application add-in. -->
+  <Import Project="$(VSToolsPath)\OfficeTools\Microsoft.VisualStudio.Tools.Office.targets" Condition="'$(VSToolsPath)' != ''" />
+  <!-- This section defines VSTO properties that describe the host-changeable project properties. -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{BAA0C2D2-18E2-41B9-852F-F413020CAA33}">
+        <ProjectProperties HostName="Excel" HostPackage="{29A7B9D7-A7F1-4328-8EF0-6B2D1A56B2C1}" OfficeVersion="15.0" VstxVersion="4.0" ApplicationType="Excel" Language="cs" TemplatesPath="VSTOTemplates" DebugInfoExeName="#Software\Microsoft\Office\15.0\Excel\InstallRoot\Path#excel.exe" DebugInfoCommandLine="/x " AddItemTemplatesGuid="{147FB6A7-F239-4523-AE65-B6A4E49B361F}" />
+        <Host Name="Excel" GeneratedCodeNamespace="Office2010Addin_Template_Excel" PublishedHash="69C324AB27932AA2FBF2B7EA72250886FF164DE6" IconIndex="0">
+          <HostItem Name="ThisAddIn" Code="ThisAddIn.cs" CanonicalName="AddIn" PublishedHash="55F2D09C34584A6D2BFA2BBE31D22223D29923ED" CanActivate="false" IconIndex="1" Blueprint="ThisAddIn.Designer.xml" GeneratedCode="ThisAddIn.Designer.cs" />
+        </Host>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

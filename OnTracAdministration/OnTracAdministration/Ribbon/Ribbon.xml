@@ -1,0 +1,45 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" onLoad="OnLoad">
+	<ribbon>
+		<tabs>
+			<tab id="CustomTaskPanes" label="Custom Task Panes">
+				<group id="OnTracAdministration" label="OnTracAdministration" visible="true">
+					<button id="Config"
+							label="Config"
+							screentip="Display Config Task Pane"
+							onAction="TaskPane_Config_Click"
+							imageMso="HappyFace"/>
+
+					<button id="CreateSheets"
+							label="CreateSheets"
+							screentip="Display CreateSheets Task Pane"
+							onAction="TaskPane_CreateSheets_Click"
+							imageMso="HappyFace"/>
+
+					<button id="UserAdmin"
+							label="User Administration"
+							screentip="Display User Administration Task Pane"
+							onAction="TaskPane_UserAdmin_Click"
+							imageMso="HappyFace"/>
+
+					<button id="UsersAndGroups"
+							label="Users And Groups"
+							screentip="Display Users and Groups Task Pane"
+							onAction="TaskPane_UsersAndGroups_Click"
+							imageMso="HappyFace"/>
+
+					<button id="Webs"
+							label="Webs"
+							screentip="Display Webs Task Pane"
+							onAction="TaskPane_Webs_Click"
+							imageMso="HappyFace"/>
+
+					<button id="Help"
+							label="Help"
+							screentip="Display Help Task Pane"
+							onAction="TaskPane_Help_Click"
+							imageMso="HappyFace"/>
+				</group>
+			</tab>
+		</tabs>
+	</ribbon>
+</customUI>

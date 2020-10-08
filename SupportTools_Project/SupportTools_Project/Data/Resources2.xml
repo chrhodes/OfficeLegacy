@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Resources>
+	<Resource Name="Christopher Rhodes" Initials="chr" Group="Team"/>
+	<Resource Name="Vikki Schanz" Initials="vjs" Group="Team"/>
+	<Resource Name="Natalie Rhodes" Initials="nrr" Group="Team"/>
+	<Resource Name="App1" Initials="app1" Group="Application"/>
+	<Resource Name="App2" Initials="app2" Group="Application"/>
+</Resources>

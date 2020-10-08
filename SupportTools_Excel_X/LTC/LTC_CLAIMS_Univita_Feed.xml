@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClaimFile>
+  <FileControl>
+    <SystemControl>UVC</SystemControl>
+    <CycleDate>20120321</CycleDate>
+    <ClaimRecordCount>1</ClaimRecordCount>
+    <ClaimPaymentCount>2</ClaimPaymentCount>
+    <XOBUDSCodeCount>5</XOBUDSCodeCount>
+    <ClaimPaymentTotalAmount>2111.11</ClaimPaymentTotalAmount>
+    <LoanPaymentTotalAmount>0.00</LoanPaymentTotalAmount>
+    <InterestPaymentTotalAmount>0.00</InterestPaymentTotalAmount>
+    <CareGiverTrainingTotal>200.00</CareGiverTrainingTotal>
+    <TransitionPaymentTotalAmount>0.00</TransitionPaymentTotalAmount>
+    <FederalWithholdingTotalAmount>1.11</FederalWithholdingTotalAmount>
+    <StateWithholdingTotalAmount>0.00</StateWithholdingTotalAmount>
+    <CityWithholdingTotalAmount>0.00</CityWithholdingTotalAmount>
+    <CheckAmountTotalAmount>2110.00</CheckAmountTotalAmount>
+    <XOBUDSCodeAmount>2511.11</XOBUDSCodeAmount>
+  </FileControl>
+  <Claim id="Claim_1">
+    <SeqID>1</SeqID>
+    <Company>PL</Company>
+    <PolicyNumber>LTC5123450</PolicyNumber>
+    <ClaimEndDate>20130301</ClaimEndDate>
+    <ClaimStartDate>20120301</ClaimStartDate>
+    <EliminationDaysUsed>10</EliminationDaysUsed>
+    <EOBStatus>Approved</EOBStatus>
+    <Payment id="Payment_1">
+      <SeqID>1</SeqID>
+      <PayeeLast>Duck Jr.</PayeeLast>
+      <PayeeFirst>Donald</PayeeFirst>
+      <PayeeOrg></PayeeOrg>
+      <PayeeAddressLine1>123 Quacker Dr</PayeeAddressLine1>
+      <PayeeAddressLine2></PayeeAddressLine2>
+      <PayeeAddressLine3></PayeeAddressLine3>
+      <PayeeCity>Anaheim</PayeeCity>
+      <PayeeState>CA</PayeeState>
+      <PayeeZip>928022900</PayeeZip>
+      <PayeeAddressCountry>0</PayeeAddressCountry>
+      <PayeeTaxID>999554444</PayeeTaxID>
+      <PayeeTaxIDType>I</PayeeTaxIDType>
+      <ClaimAmount>1111.11</ClaimAmount>
+      <CheckAmount>1110.00</CheckAmount>
+      <LoanPaymentAmount>0.00</LoanPaymentAmount>
+      <InterestAmount>0.00</InterestAmount>
+      <CareGiverTrainingAmount>200.00</CareGiverTrainingAmount>
+      <TransitionPaymentAmount>0.00</TransitionPaymentAmount>
+      <FederalWithholdingAmount>1.11</FederalWithholdingAmount>
+      <StateWithholdingAmount>0.00</StateWithholdingAmount>
+      <CityWithholdingAmount>0.00</CityWithholdingAmount>
+      <BenefitPaymentID>989786</BenefitPaymentID>
+      <PaymentType>EFT</PaymentType>
+      <CheckNumber></CheckNumber>
+      <Reversal>N</Reversal>
+      <ReversalReason></ReversalReason>
+      <XOBInfo id="XOBInfo_1">
+        <XOBUDSCode>CGTN</XOBUDSCode>
+        <Amount>200.00</Amount>
+        <ServicePeriodStart>20111207</ServicePeriodStart>
+        <ServicePeriodEnd>20111213</ServicePeriodEnd>
+        <ServiceUnits>7.0</ServiceUnits>
+        <ServiceUnitsMeasure>2</ServiceUnitsMeasure>
+      </XOBInfo>
+      <XOBInfo id="XOBInfo_2">
+        <XOBUDSCode>CGTN</XOBUDSCode>
+        <Amount>200.00</Amount>
+        <ServicePeriodStart>20111221</ServicePeriodStart>
+        <ServicePeriodEnd>20111227</ServicePeriodEnd>
+        <ServiceUnits>7.0</ServiceUnits>
+        <ServiceUnitsMeasure>2</ServiceUnitsMeasure>
+      </XOBInfo>
+      <XOBInfo id="XOBInfo_3">
+        <XOBUDSCode>1100</XOBUDSCode>
+        <Amount>911.11</Amount>
+        <ServicePeriodStart>20120101</ServicePeriodStart>
+        <ServicePeriodEnd>20120103</ServicePeriodEnd>
+        <ServiceUnits>3.0</ServiceUnits>
+        <ServiceUnitsMeasure>3</ServiceUnitsMeasure>
+      </XOBInfo>
+      <XOBInfo id="XOBInfo_4">
+        <XOBUDSCode>2200</XOBUDSCode>
+        <Amount>-200.00</Amount>
+        <ServicePeriodStart>20111228</ServicePeriodStart>
+        <ServicePeriodEnd>20111231</ServicePeriodEnd>
+        <ServiceUnits>4.0</ServiceUnits>
+        <ServiceUnitsMeasure>3</ServiceUnitsMeasure>
+      </XOBInfo>
+    </Payment>
+    <Payment id="Payment_2">
+      <SeqID>2</SeqID>
+      <PayeeLast></PayeeLast>
+      <PayeeFirst></PayeeFirst>
+      <PayeeOrg>Scrooge McDuck Home Services</PayeeOrg>
+      <PayeeAddressLine1>999 Happy Health Ln</PayeeAddressLine1>
+      <PayeeAddressLine2>Suite 21A</PayeeAddressLine2>
+      <PayeeAddressLine3></PayeeAddressLine3>
+      <PayeeCity>Potterville</PayeeCity>
+      <PayeeState>MI</PayeeState>
+      <PayeeZip>48876</PayeeZip>
+      <PayeeAddressCountry>0</PayeeAddressCountry>
+      <PayeeTaxID>332222222</PayeeTaxID>
+      <PayeeTaxIDType>C</PayeeTaxIDType>
+      <ClaimAmount>-1000.00</ClaimAmount>
+      <CheckAmount>-1000.00</CheckAmount>
+      <LoanPaymentAmount>0.00</LoanPaymentAmount>
+      <InterestAmount>0.00</InterestAmount>
+      <CareGiverTrainingAmount>0.00</CareGiverTrainingAmount>
+      <TransitionPaymentAmount>0.00</TransitionPaymentAmount>
+      <FederalWithholdingAmount>0.00</FederalWithholdingAmount>
+      <StateWithholdingAmount>0.00</StateWithholdingAmount>
+      <CityWithholdingAmount>0.00</CityWithholdingAmount>
+      <BenefitPaymentID>989787</BenefitPaymentID>
+      <PaymentType>CHECK</PaymentType>
+      <CheckNumber>52621</CheckNumber>
+      <Reversal>Y</Reversal>
+      <ReversalReason>STOP</ReversalReason>
+      <XOBInfo id="XOBInfo_1">
+        <XOBUDSCode>2100</XOBUDSCode>
+        <Amount>-1000.00</Amount>
+        <ServicePeriodStart>20110111</ServicePeriodStart>
+        <ServicePeriodEnd>20110117</ServicePeriodEnd>
+        <ServiceUnits>7.0</ServiceUnits>
+        <ServiceUnitsMeasure>3</ServiceUnitsMeasure>
+      </XOBInfo>
+    </Payment>
+  </Claim>
+</ClaimFile>

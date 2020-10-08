@@ -1,0 +1,7 @@
+﻿<hostitem:hostItem hostitem:baseType="Microsoft.Office.Tools.Excel.Worksheet" hostitem:namespace="" hostitem:className="Sheet1" hostitem:identifier="Lookups" hostitem:primaryCookie="Sheet1" hostitem:startupIndex="4" xmlns:hostitem="http://schemas.microsoft.com/2004/VisualStudio/Tools/Applications/HostItem.xsd">
+  <hostitem:hostControl hostitem:name="IntendedAudience" hostitem:identifier="IntendedAudience" hostitem:type="Microsoft.Office.Tools.Excel.NamedRange" hostitem:primaryCookie="IntendedAudience" hostitem:extenderCookie="" hostitem:modifier="Internal" />
+  <hostitem:hostControl hostitem:name="ProductType" hostitem:identifier="ProductType" hostitem:type="Microsoft.Office.Tools.Excel.NamedRange" hostitem:primaryCookie="ProductType" hostitem:extenderCookie="" hostitem:modifier="Internal" />
+  <hostitem:hostControl hostitem:name="TrueFalse" hostitem:identifier="TrueFalse" hostitem:type="Microsoft.Office.Tools.Excel.NamedRange" hostitem:primaryCookie="TrueFalse" hostitem:extenderCookie="" hostitem:modifier="Internal" />
+  <hostitem:hostControl hostitem:name="Users" hostitem:identifier="Users" hostitem:type="Microsoft.Office.Tools.Excel.NamedRange" hostitem:primaryCookie="Users" hostitem:extenderCookie="" hostitem:modifier="Internal" />
+  <hostitem:hostControl hostitem:name="WorkflowType" hostitem:identifier="WorkflowType" hostitem:type="Microsoft.Office.Tools.Excel.NamedRange" hostitem:primaryCookie="WorkflowType" hostitem:extenderCookie="" hostitem:modifier="Internal" />
+</hostitem:hostItem>

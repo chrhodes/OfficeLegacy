@@ -1,0 +1,1355 @@
+<ClaimFile>
+  <FileControl>
+    <SystemControl>UVC</SystemControl>
+    <CycleDate>20120415</CycleDate>
+    <CountClaimRecord>20</CountClaimRecord>
+    <CountClaimPayment>28</CountClaimPayment>
+    <XOBUDSCodeCount>43</XOBUDSCodeCount>
+    <ClaimPaymentTotalAmount>59545.00</ClaimPaymentTotalAmount>
+    <LoanPaymentTotalAmount>1300.00</LoanPaymentTotalAmount>
+    <InterestPaymentTotalAmount>121.00</InterestPaymentTotalAmount>
+    <CareGiverTrainingTotal>2450.00</CareGiverTrainingTotal>
+    <TransitionPaymentTotalAmount>1050.00</TransitionPaymentTotalAmount>
+    <FederalWitholdingTotalAmount>108.33</FederalWitholdingTotalAmount>
+    <StateWithholdingTotalAmount>52.95</StateWithholdingTotalAmount>
+    <CityWithholdingTotalAmount>1.77</CityWithholdingTotalAmount>
+    <CheckAmountTotalAmount>58396.87</CheckAmountTotalAmount>
+    <XOBUDSCodeAmount>58595.00</XOBUDSCodeAmount>
+  </FileControl>
+  <Claim id="Claim_1">
+    <SeqID>1</SeqID>
+    <Company>PL</Company>
+    <PolicyNumber>LTC5000610</PolicyNumber>
+    <ClaimEndDate>20120531</ClaimEndDate>
+    <ClaimStartDate>20120601</ClaimStartDate>
+    <EliminationDaysUsed>13</EliminationDaysUsed>
+    <EOBStatus>APPROVED</EOBStatus>
+    <Payment id="Payment_1">
+      <SeqID>1</SeqID>
+      <PayeeLast>Kim</PayeeLast>
+      <PayeeFirst>Young Yee </PayeeFirst>
+      <PayeeOrg></PayeeOrg>
+      <PayeeAddressLine1>3699 Sterlin Cir</PayeeAddressLine1>
+      <PayeeAddressLine2></PayeeAddressLine2>
+      <PayeeAddressLine3></PayeeAddressLine3>
+      <PayeeCity>Cary</PayeeCity>
+      <PayeeState>IL</PayeeState>
+      <PayeeZip>60013</PayeeZip>
+      <PayeeAddressCountry>0</PayeeAddressCountry>
+      <PayeeTaxID>028981002</PayeeTaxID>
+      <PayeeTaxIDType>I</PayeeTaxIDType>
+      <ClaimAmount>5600.00</ClaimAmount>
+      <CheckAmount>5594.40</CheckAmount>
+      <LoanPaymentAmount>0.00</LoanPaymentAmount>
+      <InterestAmount>0.00</InterestAmount>
+      <CareGiverTrainingAmount>500.00</CareGiverTrainingAmount>
+      <TransitionPaymentAmount>0.00</TransitionPaymentAmount>
+      <FederalWithholdingAmount>5.60</FederalWithholdingAmount>
+      <StateWithholdingAmount>0.00</StateWithholdingAmount>
+      <CityWithholdingAmount>0.00</CityWithholdingAmount>
+      <BenefitPaymentID>123450</BenefitPaymentID>
+      <PaymentType>CHECK</PaymentType>
+      <CheckNumber>875</CheckNumber>
+      <Reversal>N</Reversal>
+      <ReversalReason></ReversalReason>
+      <XOBInfo Id="XOB_Info_1">
+        <XOBUDSCode>CGTN</XOBUDSCode>
+        <Amount>500.00</Amount>
+        <ServicePeriodStart>20120420</ServicePeriodStart>
+        <ServicePeriodEnd>20120430</ServicePeriodEnd>
+        <ServiceUnits>12</ServiceUnits>
+        <ServiceUnitsMeasure>2</ServiceUnitsMeasure>
+      </XOBInfo>
+      <XOBInfo Id="XOB_Info_2">
+        <XOBUDSCode>7212</XOBUDSCode>
+        <Amount>1200.00</Amount>
+        <ServicePeriodStart>20120501</ServicePeriodStart>
+        <ServicePeriodEnd>20120505</ServicePeriodEnd>
+        <ServiceUnits>5</ServiceUnits>
+        <ServiceUnitsMeasure>2</ServiceUnitsMeasure>
+      </XOBInfo>
+      <XOBInfo Id="XOB_Info_3">
+        <XOBUDSCode>3500</XOBUDSCode>
+        <Amount>1000.00</Amount>
+        <ServicePeriodStart>20120506</ServicePeriodStart>
+        <ServicePeriodEnd>20120510</ServicePeriodEnd>
+        <ServiceUnits>5</ServiceUnits>
+        <ServiceUnitsMeasure>5</ServiceUnitsMeasure>
+      </XOBInfo>
+      <XOBInfo Id="XOB_Info_4">
+        <XOBUDSCode>4610</XOBUDSCode>
+        <Amount>1900.00</Amount>
+        <ServicePeriodStart>20120425</ServicePeriodStart>
+        <ServicePeriodEnd>20120530</ServicePeriodEnd>
+        <ServiceUnits>36</ServiceUnits>
+        <ServiceUnitsMeasure>3</ServiceUnitsMeasure>
+      </XOBInfo>
+      <XOBInfo Id="XOB_Info_5">
+        <XOBUDSCode>4640</XOBUDSCode>
+        <Amount>1000.00</Amount>
+        <ServicePeriodStart>20120501</ServicePeriodStart>
+        <ServicePeriodEnd>20120531</ServicePeriodEnd>
+        <ServiceUnits>31</ServiceUnits>
+        <ServiceUnitsMeasure>9</ServiceUnitsMeasure>
+      </XOBInfo>
+    </Payment>
+  </Claim>
+  <Claim id="Claim_2">
+    <SeqID>2</SeqID>
+    <Company>PL</Company>
+    <PolicyNumber>LTC5000620</PolicyNumber>
+    <ClaimEndDate>20120531</ClaimEndDate>
+    <ClaimStartDate>20120601</ClaimStartDate>
+    <EliminationDaysUsed>90</EliminationDaysUsed>
+    <EOBStatus>APPROVED</EOBStatus>
+    <Payment id="Payment_1">
+      <SeqID>1</SeqID>
+      <PayeeLast>Prestejohn</PayeeLast>
+      <PayeeFirst>John</PayeeFirst>
+      <PayeeOrg></PayeeOrg>
+      <PayeeAddressLine1>18 Anthony Cir</PayeeAddressLine1>
+      <PayeeAddressLine2></PayeeAddressLine2>
+      <PayeeAddressLine3></PayeeAddressLine3>
+      <PayeeCity>Boston</PayeeCity>
+      <PayeeState>MA</PayeeState>
+      <PayeeZip>02460</PayeeZip>
+      <PayeeAddressCountry>0</PayeeAddressCountry>
+      <PayeeTaxID>014001188</PayeeTaxID>
+      <PayeeTaxIDType></PayeeTaxIDType>
+      <ClaimAmount>4000.00</ClaimAmount>
+      <CheckAmount>3988.00</CheckAmount>
+      <LoanPaymentAmount>0.00</LoanPaymentAmount>
+      <InterestAmount>0.00</InterestAmount>
+      <CareGiverTrainingAmount>1100.00</CareGiverTrainingAmount>
+      <TransitionPaymentAmount>0.00</TransitionPaymentAmount>
+      <FederalWithholdingAmount>8.00</FederalWithholdingAmount>
+      <StateWithholdingAmount>4.00</StateWithholdingAmount>
+      <CityWithholdingAmount>0.00</CityWithholdingAmount>
+      <BenefitPaymentID>123451</BenefitPaymentID>
+      <PaymentType>EFT</PaymentType>
+      <CheckNumber></CheckNumber>
+      <Reversal>N</Reversal>
+      <ReversalReason></ReversalReason>
+      <XOBInfo Id="XOB_Info_1">
+        <XOBUDSCode>CGTN</XOBUDSCode>
+        <Amount>1100.00</Amount>
+        <ServicePeriodStart>20120401</ServicePeriodStart>
+        <ServicePeriodEnd>20120415</ServicePeriodEnd>
+        <ServiceUnits>15</ServiceUnits>
+        <ServiceUnitsMeasure>2</ServiceUnitsMeasure>
+      </XOBInfo>
+      <XOBInfo Id="XOB_Info_2">
+        <XOBUDSCode>4650</XOBUDSCode>
+        <Amount>500.00</Amount>
+        <ServicePeriodStart>20120410</ServicePeriodStart>
+        <ServicePeriodEnd>20120430</ServicePeriodEnd>
+        <ServiceUnits>21</ServiceUnits>
+        <ServiceUnitsMeasure>3</ServiceUnitsMeasure>
+      </XOBInfo>
+      <XOBInfo Id="XOB_Info_3">
+        <XOBUDSCode>3150</XOBUDSCode>
+        <Amount>2400.00</Amount>
+        <ServicePeriodStart>20120416</ServicePeriodStart>
+        <ServicePeriodEnd>20120525</ServicePeriodEnd>
+        <ServiceUnits>4</ServiceUnits>
+        <ServiceUnitsMeasure>4</ServiceUnitsMeasure>
+      </XOBInfo>
+    </Payment>
+  </Claim>
+  <Claim id="Claim_3">
+    <SeqID>3</SeqID>
+    <Company>PL</Company>
+    <PolicyNumber>LTC5000630</PolicyNumber>
+    <ClaimEndDate>20120531</ClaimEndDate>
+    <ClaimStartDate>20120601</ClaimStartDate>
+    <EliminationDaysUsed>90</EliminationDaysUsed>
+    <EOBStatus>APPROVED</EOBStatus>
+    <Payment id="Payment_1">
+      <SeqID>1</SeqID>
+      <PayeeLast></PayeeLast>
+      <PayeeFirst></PayeeFirst>
+      <PayeeOrg>CBS Nursing Home</PayeeOrg>
+      <PayeeAddressLine1>700 buffalo way</PayeeAddressLine1>
+      <PayeeAddressLine2></PayeeAddressLine2>
+      <PayeeAddressLine3></PayeeAddressLine3>
+      <PayeeCity>kenmore</PayeeCity>
+      <PayeeState>NY</PayeeState>
+      <PayeeZip>14210</PayeeZip>
+      <PayeeAddressCountry>0</PayeeAddressCountry>
+      <PayeeTaxID>222222222</PayeeTaxID>
+      <PayeeTaxIDType>C</PayeeTaxIDType>
+      <ClaimAmount>7000.00</ClaimAmount>
+      <CheckAmount>6979.00</CheckAmount>
+      <LoanPaymentAmount>0.00</LoanPaymentAmount>
+      <InterestAmount>0.00</InterestAmount>
+      <CareGiverTrainingAmount>0.00</CareGiverTrainingAmount>
+      <TransitionPaymentAmount>0.00</TransitionPaymentAmount>
+      <FederalWithholdingAmount>14.00</FederalWithholdingAmount>
+      <StateWithholdingAmount>7.00</StateWithholdingAmount>
+      <CityWithholdingAmount>0.00</CityWithholdingAmount>
+      <BenefitPaymentID>123452</BenefitPaymentID>
+      <PaymentType>EFT</PaymentType>
+      <CheckNumber></CheckNumber>
+      <Reversal>N</Reversal>
+      <ReversalReason></ReversalReason>
+      <XOBInfo Id="XOB_Info_1">
+        <XOBUDSCode>3800</XOBUDSCode>
+        <Amount>2000.00</Amount>
+        <ServicePeriodStart>20120410</ServicePeriodStart>
+        <ServicePeriodEnd>20120410</ServicePeriodEnd>
+        <ServiceUnits>1</ServiceUnits>
+        <ServiceUnitsMeasure>2</ServiceUnitsMeasure>
+      </XOBInfo>
+      <XOBInfo Id="XOB_Info_2">
+        <XOBUDSCode>1110</XOBUDSCode>
+        <Amount>3000.00</Amount>
+        <ServicePeriodStart>20120410</ServicePeriodStart>
+        <ServicePeriodEnd>20120416</ServicePeriodEnd>
+        <ServiceUnits>6</ServiceUnits>
+        <ServiceUnitsMeasure>3</ServiceUnitsMeasure>
+      </XOBInfo>
+      <XOBInfo Id="XOB_Info_3">
+        <XOBUDSCode>NHSK</XOBUDSCode>
+        <Amount>2000.00</Amount>
+        <ServicePeriodStart>20120417</ServicePeriodStart>
+        <ServicePeriodEnd>20120520</ServicePeriodEnd>
+        <ServiceUnits>25</ServiceUnits>
+        <ServiceUnitsMeasure>9</ServiceUnitsMeasure>
+      </XOBInfo>
+    </Payment>
+    <Payment id="Payment_2">
+      <SeqID>2</SeqID>
+      <PayeeLast>Gillium</PayeeLast>
+      <PayeeFirst>Claudia</PayeeFirst>
+      <PayeeOrg></PayeeOrg>
+      <PayeeAddressLine1>7766 Park Rdg Cir</PayeeAddressLine1>
+      <PayeeAddressLine2></PayeeAddressLine2>
+      <PayeeAddressLine3></PayeeAddressLine3>
+      <PayeeCity>Fort Collins</PayeeCity>
+      <PayeeState>CO</PayeeState>
+      <PayeeZip>80528</PayeeZip>
+      <PayeeAddressCountry>0</PayeeAddressCountry>
+      <PayeeTaxID>524771172</PayeeTaxID>
+      <PayeeTaxIDType>I</PayeeTaxIDType>
+      <ClaimAmount>350.00</ClaimAmount>
+      <CheckAmount>348.95</CheckAmount>
+      <LoanPaymentAmount>0.00</LoanPaymentAmount>
+      <InterestAmount>0.00</InterestAmount>
+      <CareGiverTrainingAmount>0.00</CareGiverTrainingAmount>
+      <TransitionPaymentAmount>0.00</TransitionPaymentAmount>
+      <FederalWithholdingAmount>0.70</FederalWithholdingAmount>
+      <StateWithholdingAmount>0.35</StateWithholdingAmount>
+      <CityWithholdingAmount>0.00</CityWithholdingAmount>
+      <BenefitPaymentID>123453</BenefitPaymentID>
+      <PaymentType>EFT</PaymentType>
+      <CheckNumber></CheckNumber>
+      <Reversal>N</Reversal>
+      <ReversalReason></ReversalReason>
+      <XOBInfo Id="XOB_Info_1">
+        <XOBUDSCode>CGTN</XOBUDSCode>
+        <Amount>350.00</Amount>
+        <ServicePeriodStart>20120501</ServicePeriodStart>
+        <ServicePeriodEnd>20120515</ServicePeriodEnd>
+        <ServiceUnits>5</ServiceUnits>
+        <ServiceUnitsMeasure>2</ServiceUnitsMeasure>
+      </XOBInfo>
+    </Payment>
+  </Claim>
+  <Claim id="Claim_4">
+    <SeqID>4</SeqID>
+    <Company>PL</Company>
+    <PolicyNumber>LTC5000670</PolicyNumber>
+    <ClaimEndDate>20120531</ClaimEndDate>
+    <ClaimStartDate>20120601</ClaimStartDate>
+    <EliminationDaysUsed>90</EliminationDaysUsed>
+    <EOBStatus>APPROVED</EOBStatus>
+    <Payment id="Payment_1">
+      <SeqID>1</SeqID>
+      <PayeeLast>Mitchell</PayeeLast>
+      <PayeeFirst>MARY</PayeeFirst>
+      <PayeeOrg></PayeeOrg>
+      <PayeeAddressLine1>500 rosemary rd</PayeeAddressLine1>
+      <PayeeAddressLine2></PayeeAddressLine2>
+      <PayeeAddressLine3></PayeeAddressLine3>
+      <PayeeCity>lake forest</PayeeCity>
+      <PayeeState>IL</PayeeState>
+      <PayeeZip>60045-2359</PayeeZip>
+      <PayeeAddressCountry>0</PayeeAddressCountry>
+      <PayeeTaxID>277885554</PayeeTaxID>
+      <PayeeTaxIDType>I</PayeeTaxIDType>
+      <ClaimAmount>800.00</ClaimAmount>
+      <CheckAmount>797.60</CheckAmount>
+      <LoanPaymentAmount>0.00</LoanPaymentAmount>
+      <InterestAmount>0.00</InterestAmount>
+      <CareGiverTrainingAmount>100.00</CareGiverTrainingAmount>
+      <TransitionPaymentAmount>0.00</TransitionPaymentAmount>
+      <FederalWithholdingAmount>1.60</FederalWithholdingAmount>
+      <StateWithholdingAmount>0.80</StateWithholdingAmount>
+      <CityWithholdingAmount>0.00</CityWithholdingAmount>
+      <BenefitPaymentID>123454</BenefitPaymentID>
+      <PaymentType>CHECK</PaymentType>
+      <CheckNumber>1256</CheckNumber>
+      <Reversal>N</Reversal>
+      <ReversalReason></ReversalReason>
+      <XOBInfo Id="XOB_Info_1">
+        <XOBUDSCode>CGTN</XOBUDSCode>
+        <Amount>100.00</Amount>
+        <ServicePeriodStart>20120410</ServicePeriodStart>
+        <ServicePeriodEnd>20120430</ServicePeriodEnd>
+        <ServiceUnits>2</ServiceUnits>
+        <ServiceUnitsMeasure>2</ServiceUnitsMeasure>
+      </XOBInfo>
+      <XOBInfo Id="XOB_Info_2">
+        <XOBUDSCode>MODX</XOBUDSCode>
+        <Amount>700.00</Amount>
+        <ServicePeriodStart>20120501</ServicePeriodStart>
+        <ServicePeriodEnd>20120501</ServicePeriodEnd>
+        <ServiceUnits>1</ServiceUnits>
+        <ServiceUnitsMeasure>2</ServiceUnitsMeasure>
+      </XOBInfo>
+    </Payment>
+  </Claim>
+  <Claim id="Claim_5">
+    <SeqID>5</SeqID>
+    <Company>PL</Company>
+    <PolicyNumber>LTC5000680</PolicyNumber>
+    <ClaimEndDate>20120531</ClaimEndDate>
+    <ClaimStartDate>20120601</ClaimStartDate>
+    <EliminationDaysUsed>90</EliminationDaysUsed>
+    <EOBStatus>APPROVED</EOBStatus>
+    <Payment id="Payment_1">
+      <SeqID>1</SeqID>
+      <PayeeLast>Phelps</PayeeLast>
+      <PayeeFirst>Carol</PayeeFirst>
+      <PayeeOrg></PayeeOrg>
+      <PayeeAddressLine1>200 bogard ln</PayeeAddressLine1>
+      <PayeeAddressLine2>fl 21</PayeeAddressLine2>
+      <PayeeAddressLine3>apt 100</PayeeAddressLine3>
+      <PayeeCity>Mt Washington</PayeeCity>
+      <PayeeState>KY</PayeeState>
+      <PayeeZip>40047</PayeeZip>
+      <PayeeAddressCountry>0</PayeeAddressCountry>
+      <PayeeTaxID>400804888</PayeeTaxID>
+      <PayeeTaxIDType>I</PayeeTaxIDType>
+      <ClaimAmount>2500.00</ClaimAmount>
+      <CheckAmount>1512.25</CheckAmount>
+      <LoanPaymentAmount>1100.00</LoanPaymentAmount>
+      <InterestAmount>121.00</InterestAmount>
+      <CareGiverTrainingAmount>0.00</CareGiverTrainingAmount>
+      <TransitionPaymentAmount>0.00</TransitionPaymentAmount>
+      <FederalWithholdingAmount>5.00</FederalWithholdingAmount>
+      <StateWithholdingAmount>2.50</StateWithholdingAmount>
+      <CityWithholdingAmount>1.25</CityWithholdingAmount>
+      <BenefitPaymentID>123455</BenefitPaymentID>
+      <PaymentType>CHECK</PaymentType>
+      <CheckNumber>2222222</CheckNumber>
+      <Reversal>N</Reversal>
+      <ReversalReason></ReversalReason>
+      <XOBInfo Id="XOB_Info_1">
+        <XOBUDSCode>CPFC</XOBUDSCode>
+        <Amount>1400.00</Amount>
+        <ServicePeriodStart>20120428</ServicePeriodStart>
+        <ServicePeriodEnd>20120428</ServicePeriodEnd>
+        <ServiceUnits>1</ServiceUnits>
+        <ServiceUnitsMeasure>9</ServiceUnitsMeasure>
+      </XOBInfo>
+    </Payment>
+  </Claim>
+  <Claim id="Claim_6">
+    <SeqID>6</SeqID>
+    <Company>PL</Company>
+    <PolicyNumber>LTC5000690</PolicyNumber>
+    <ClaimEndDate>20120531</ClaimEndDate>
+    <ClaimStartDate>20120601</ClaimStartDate>
+    <EliminationDaysUsed>90</EliminationDaysUsed>
+    <EOBStatus>APPROVED</EOBStatus>
+    <Payment id="Payment_1">
+      <SeqID>1</SeqID>
+      <PayeeLast></PayeeLast>
+      <PayeeFirst></PayeeFirst>
+      <PayeeOrg>Punja Home Care</PayeeOrg>
+      <PayeeAddressLine1>house no 29999</PayeeAddressLine1>
+      <PayeeAddressLine2>phase-17 mohall</PayeeAddressLine2>
+      <PayeeAddressLine3></PayeeAddressLine3>
+      <PayeeCity>punja india</PayeeCity>
+      <PayeeState></PayeeState>
+      <PayeeZip></PayeeZip>
+      <PayeeAddressCountry>1</PayeeAddressCountry>
+      <PayeeTaxID></PayeeTaxID>
+      <PayeeTaxIDType></PayeeTaxIDType>
+      <ClaimAmount>1000.00</ClaimAmount>
+      <CheckAmount>998.00</CheckAmount>
+      <LoanPaymentAmount>0.00</LoanPaymentAmount>
+      <InterestAmount>0.00</InterestAmount>
+      <CareGiverTrainingAmount>250.00</CareGiverTrainingAmount>
+      <TransitionPaymentAmount>50.00</TransitionPaymentAmount>
+      <FederalWithholdingAmount>2.00</FederalWithholdingAmount>
+      <StateWithholdingAmount>0.00</StateWithholdingAmount>
+      <CityWithholdingAmount>0.00</CityWithholdingAmount>
+      <BenefitPaymentID>123456</BenefitPaymentID>
+      <PaymentType>EFT</PaymentType>
+      <CheckNumber></CheckNumber>
+      <Reversal>N</Reversal>
+      <ReversalReason></ReversalReason>
+      <XOBInfo Id="XOB_Info_1">
+        <XOBUDSCode>CGTN</XOBUDSCode>
+        <Amount>250.00</Amount>
+        <ServicePeriodStart>20120415</ServicePeriodStart>
+        <ServicePeriodEnd>20120430</ServicePeriodEnd>
+        <ServiceUnits>7</ServiceUnits>
+        <ServiceUnitsMeasure>2</ServiceUnitsMeasure>
+      </XOBInfo>
+      <XOBInfo Id="XOB_Info_2">
+        <XOBUDSCode>INTT</XOBUDSCode>
+        <Amount>750.00</Amount>
+        <ServicePeriodStart>20120501</ServicePeriodStart>
+        <ServicePeriodEnd>20120530</ServicePeriodEnd>
+        <ServiceUnits>1</ServiceUnits>
+        <ServiceUnitsMeasure>9</ServiceUnitsMeasure>
+      </XOBInfo>
+    </Payment>
+  </Claim>
+  <Claim id="Claim_7">
+    <SeqID>7</SeqID>
+    <Company>PL</Company>
+    <PolicyNumber>LTC5000650</PolicyNumber>
+    <ClaimEndDate>20120531</ClaimEndDate>
+    <ClaimStartDate>20120601</ClaimStartDate>
+    <EliminationDaysUsed>90</EliminationDaysUsed>
+    <EOBStatus>APPROVED</EOBStatus>
+    <Payment id="Payment_1">
+      <SeqID>1</SeqID>
+      <PayeeLast></PayeeLast>
+      <PayeeFirst></PayeeFirst>
+      <PayeeOrg>Scruggs Nursing Home</PayeeOrg>
+      <PayeeAddressLine1>Attn: Acct Receivable</PayeeAddressLine1>
+      <PayeeAddressLine2>Route B10</PayeeAddressLine2>
+      <PayeeAddressLine3>PO Box 811</PayeeAddressLine3>
+      <PayeeCity>Westmoreland</PayeeCity>
+      <PayeeState>TN</PayeeState>
+      <PayeeZip>37186-0811</PayeeZip>
+      <PayeeAddressCountry>0</PayeeAddressCountry>
+      <PayeeTaxID>72104027</PayeeTaxID>
+      <PayeeTaxIDType>C</PayeeTaxIDType>
+      <ClaimAmount>3500.00</ClaimAmount>
+      <CheckAmount>3489.50</CheckAmount>
+      <LoanPaymentAmount>0.00</LoanPaymentAmount>
+      <InterestAmount>0.00</InterestAmount>
+      <CareGiverTrainingAmount>0.00</CareGiverTrainingAmount>
+      <TransitionPaymentAmount>0.00</TransitionPaymentAmount>
+      <FederalWithholdingAmount>7.00</FederalWithholdingAmount>
+      <StateWithholdingAmount>3.50</StateWithholdingAmount>
+      <CityWithholdingAmount>0.00</CityWithholdingAmount>
+      <BenefitPaymentID>123457</BenefitPaymentID>
+      <PaymentType>CHECK</PaymentType>
+      <CheckNumber>565100</CheckNumber>
+      <Reversal>N</Reversal>
+      <ReversalReason></ReversalReason>
+      <XOBInfo Id="XOB_Info_1">
+        <XOBUDSCode>SETL</XOBUDSCode>
+        <Amount>3500.00</Amount>
+        <ServicePeriodStart>20120501</ServicePeriodStart>
+        <ServicePeriodEnd>20120530</ServicePeriodEnd>
+        <ServiceUnits>1</ServiceUnits>
+        <ServiceUnitsMeasure>9</ServiceUnitsMeasure>
+      </XOBInfo>
+    </Payment>
+  </Claim>
+  <Claim id="Claim_8">
+    <SeqID>8</SeqID>
+    <Company>PL</Company>
+    <PolicyNumber>LTC5000840</PolicyNumber>
+    <ClaimEndDate>20120531</ClaimEndDate>
+    <ClaimStartDate>20120601</ClaimStartDate>
+    <EliminationDaysUsed>90</EliminationDaysUsed>
+    <EOBStatus>APPROVED</EOBStatus>
+    <Payment id="Payment_1">
+      <SeqID>1</SeqID>
+      <PayeeLast>Jones</PayeeLast>
+      <PayeeFirst>Dumaine</PayeeFirst>
+      <PayeeOrg></PayeeOrg>
+      <PayeeAddressLine1>PO BOX 855</PayeeAddressLine1>
+      <PayeeAddressLine2></PayeeAddressLine2>
+      <PayeeAddressLine3></PayeeAddressLine3>
+      <PayeeCity>Alexandria</PayeeCity>
+      <PayeeState>KY</PayeeState>
+      <PayeeZip>41001-0855</PayeeZip>
+      <PayeeAddressCountry>0</PayeeAddressCountry>
+      <PayeeTaxID>330448411</PayeeTaxID>
+      <PayeeTaxIDType>I</PayeeTaxIDType>
+      <ClaimAmount>3500.00</ClaimAmount>
+      <CheckAmount>3489.50</CheckAmount>
+      <LoanPaymentAmount>0.00</LoanPaymentAmount>
+      <InterestAmount>0.00</InterestAmount>
+      <CareGiverTrainingAmount>0.00</CareGiverTrainingAmount>
+      <TransitionPaymentAmount>0.00</TransitionPaymentAmount>
+      <FederalWithholdingAmount>7.00</FederalWithholdingAmount>
+      <StateWithholdingAmount>3.50</StateWithholdingAmount>
+      <CityWithholdingAmount>0.00</CityWithholdingAmount>
+      <BenefitPaymentID>123458</BenefitPaymentID>
+      <PaymentType>CHECK</PaymentType>
+      <CheckNumber>25222</CheckNumber>
+      <Reversal>N</Reversal>
+      <ReversalReason></ReversalReason>
+      <XOBInfo Id="XOB_Info_1">
+        <XOBUDSCode>HCAR</XOBUDSCode>
+        <Amount>3500.00</Amount>
+        <ServicePeriodStart>20120415</ServicePeriodStart>
+        <ServicePeriodEnd>20120531</ServicePeriodEnd>
+        <ServiceUnits>46</ServiceUnits>
+        <ServiceUnitsMeasure>6</ServiceUnitsMeasure>
+      </XOBInfo>
+    </Payment>
+  </Claim>
+  <Claim id="Claim_9">
+    <SeqID>9</SeqID>
+    <Company>PL</Company>
+    <PolicyNumber>LTC5000790</PolicyNumber>
+    <ClaimEndDate>20120531</ClaimEndDate>
+    <ClaimStartDate>20120601</ClaimStartDate>
+    <EliminationDaysUsed>90</EliminationDaysUsed>
+    <EOBStatus>APPROVED</EOBStatus>
+    <Payment id="Payment_1">
+      <SeqID>1</SeqID>
+      <PayeeLast></PayeeLast>
+      <PayeeFirst></PayeeFirst>
+      <PayeeOrg>McCain Nursing home</PayeeOrg>
+      <PayeeAddressLine1>5555 State Route 133</PayeeAddressLine1>
+      <PayeeAddressLine2></PayeeAddressLine2>
+      <PayeeAddressLine3></PayeeAddressLine3>
+      <PayeeCity>Pleasant Plain</PayeeCity>
+      <PayeeState>AK</PayeeState>
+      <PayeeZip>75011</PayeeZip>
+      <PayeeAddressCountry>0</PayeeAddressCountry>
+      <PayeeTaxID>999999911</PayeeTaxID>
+      <PayeeTaxIDType>C</PayeeTaxIDType>
+      <ClaimAmount>4000.00</ClaimAmount>
+      <CheckAmount>3988.00</CheckAmount>
+      <LoanPaymentAmount>0.00</LoanPaymentAmount>
+      <InterestAmount>0.00</InterestAmount>
+      <CareGiverTrainingAmount>0.00</CareGiverTrainingAmount>
+      <TransitionPaymentAmount>0.00</TransitionPaymentAmount>
+      <FederalWithholdingAmount>8.00</FederalWithholdingAmount>
+      <StateWithholdingAmount>4.00</StateWithholdingAmount>
+      <CityWithholdingAmount>0.00</CityWithholdingAmount>
+      <BenefitPaymentID>123459</BenefitPaymentID>
+      <PaymentType>EFT</PaymentType>
+      <CheckNumber></CheckNumber>
+      <Reversal>N</Reversal>
+      <ReversalReason></ReversalReason>
+      <XOBInfo Id="XOB_Info_1">
+        <XOBUDSCode>FCAR</XOBUDSCode>
+        <Amount>4000.00</Amount>
+        <ServicePeriodStart>20120601</ServicePeriodStart>
+        <ServicePeriodEnd>20120630</ServicePeriodEnd>
+        <ServiceUnits>30</ServiceUnits>
+        <ServiceUnitsMeasure>3</ServiceUnitsMeasure>
+      </XOBInfo>
+    </Payment>
+    <Payment id="Payment_2">
+      <SeqID>2</SeqID>
+      <PayeeLast>Smith</PayeeLast>
+      <PayeeFirst>Mary</PayeeFirst>
+      <PayeeOrg></PayeeOrg>
+      <PayeeAddressLine1>5555 State Route 133</PayeeAddressLine1>
+      <PayeeAddressLine2></PayeeAddressLine2>
+      <PayeeAddressLine3></PayeeAddressLine3>
+      <PayeeCity>Pleasant Plain</PayeeCity>
+      <PayeeState>AK</PayeeState>
+      <PayeeZip>75011</PayeeZip>
+      <PayeeAddressCountry>0</PayeeAddressCountry>
+      <PayeeTaxID>999999911</PayeeTaxID>
+      <PayeeTaxIDType>I</PayeeTaxIDType>
+      <ClaimAmount>500.00</ClaimAmount>
+      <CheckAmount>498.50</CheckAmount>
+      <LoanPaymentAmount>0.00</LoanPaymentAmount>
+      <InterestAmount>0.00</InterestAmount>
+      <CareGiverTrainingAmount>0.00</CareGiverTrainingAmount>
+      <TransitionPaymentAmount>0.00</TransitionPaymentAmount>
+      <FederalWithholdingAmount>1.00</FederalWithholdingAmount>
+      <StateWithholdingAmount>0.50</StateWithholdingAmount>
+      <CityWithholdingAmount>0.00</CityWithholdingAmount>
+      <BenefitPaymentID>123460</BenefitPaymentID>
+      <PaymentType>EFT</PaymentType>
+      <CheckNumber></CheckNumber>
+      <Reversal>N</Reversal>
+      <ReversalReason></ReversalReason>
+      <XOBInfo Id="XOB_Info_1">
+        <XOBUDSCode>WELL</XOBUDSCode>
+        <Amount>500.00</Amount>
+        <ServicePeriodStart>20120501</ServicePeriodStart>
+        <ServicePeriodEnd>20120525</ServicePeriodEnd>
+        <ServiceUnits>25</ServiceUnits>
+        <ServiceUnitsMeasure>9</ServiceUnitsMeasure>
+      </XOBInfo>
+    </Payment>
+    <Payment id="Payment_3">
+      <SeqID>3</SeqID>
+      <PayeeLast></PayeeLast>
+      <PayeeFirst></PayeeFirst>
+      <PayeeOrg>McCain Nursing home</PayeeOrg>
+      <PayeeAddressLine1>5555 State Route 133</PayeeAddressLine1>
+      <PayeeAddressLine2></PayeeAddressLine2>
+      <PayeeAddressLine3></PayeeAddressLine3>
+      <PayeeCity>Pleasant Plain</PayeeCity>
+      <PayeeState>AK</PayeeState>
+      <PayeeZip>75011</PayeeZip>
+      <PayeeAddressCountry>0</PayeeAddressCountry>
+      <PayeeTaxID>999999911</PayeeTaxID>
+      <PayeeTaxIDType>C</PayeeTaxIDType>
+      <ClaimAmount>4000.00</ClaimAmount>
+      <CheckAmount>3988.00</CheckAmount>
+      <LoanPaymentAmount>0.00</LoanPaymentAmount>
+      <InterestAmount>0.00</InterestAmount>
+      <CareGiverTrainingAmount>0.00</CareGiverTrainingAmount>
+      <TransitionPaymentAmount>1000.00</TransitionPaymentAmount>
+      <FederalWithholdingAmount>8.00</FederalWithholdingAmount>
+      <StateWithholdingAmount>4.00</StateWithholdingAmount>
+      <CityWithholdingAmount>0.00</CityWithholdingAmount>
+      <BenefitPaymentID>123461</BenefitPaymentID>
+      <PaymentType>EFT</PaymentType>
+      <CheckNumber></CheckNumber>
+      <Reversal>N</Reversal>
+      <ReversalReason></ReversalReason>
+      <XOBInfo Id="XOB_Info_1">
+        <XOBUDSCode>7410</XOBUDSCode>
+        <Amount>3000.00</Amount>
+        <ServicePeriodStart>20120501</ServicePeriodStart>
+        <ServicePeriodEnd>20120524</ServicePeriodEnd>
+        <ServiceUnits>20</ServiceUnits>
+        <ServiceUnitsMeasure>2</ServiceUnitsMeasure>
+      </XOBInfo>
+      <XOBInfo Id="XOB_Info_2">
+        <XOBUDSCode>TRAN</XOBUDSCode>
+        <Amount>1000.00</Amount>
+        <ServicePeriodStart>20120525</ServicePeriodStart>
+        <ServicePeriodEnd>20120531</ServicePeriodEnd>
+        <ServiceUnits>7</ServiceUnits>
+        <ServiceUnitsMeasure>2</ServiceUnitsMeasure>
+      </XOBInfo>
+    </Payment>
+    <Payment id="Payment_4">
+      <SeqID>4</SeqID>
+      <PayeeLast></PayeeLast>
+      <PayeeFirst></PayeeFirst>
+      <PayeeOrg>McCain Nursing home</PayeeOrg>
+      <PayeeAddressLine1>5555 State Route 133</PayeeAddressLine1>
+      <PayeeAddressLine2></PayeeAddressLine2>
+      <PayeeAddressLine3></PayeeAddressLine3>
+      <PayeeCity>Pleasant Plain</PayeeCity>
+      <PayeeState>AK</PayeeState>
+      <PayeeZip>75011</PayeeZip>
+      <PayeeAddressCountry>0</PayeeAddressCountry>
+      <PayeeTaxID>999999911</PayeeTaxID>
+      <PayeeTaxIDType>C</PayeeTaxIDType>
+      <ClaimAmount>100.00</ClaimAmount>
+      <CheckAmount>99.70</CheckAmount>
+      <LoanPaymentAmount>0.00</LoanPaymentAmount>
+      <InterestAmount>0.00</InterestAmount>
+      <CareGiverTrainingAmount>0.00</CareGiverTrainingAmount>
+      <TransitionPaymentAmount>0.00</TransitionPaymentAmount>
+      <FederalWithholdingAmount>0.20</FederalWithholdingAmount>
+      <StateWithholdingAmount>0.10</StateWithholdingAmount>
+      <CityWithholdingAmount>0.00</CityWithholdingAmount>
+      <BenefitPaymentID>123462</BenefitPaymentID>
+      <PaymentType>EFT</PaymentType>
+      <CheckNumber></CheckNumber>
+      <Reversal>N</Reversal>
+      <ReversalReason></ReversalReason>
+      <XOBInfo Id="XOB_Info_1">
+        <XOBUDSCode>7832</XOBUDSCode>
+        <Amount>100.00</Amount>
+        <ServicePeriodStart>20120515</ServicePeriodStart>
+        <ServicePeriodEnd>20120516</ServicePeriodEnd>
+        <ServiceUnits>1</ServiceUnits>
+        <ServiceUnitsMeasure>3</ServiceUnitsMeasure>
+      </XOBInfo>
+    </Payment>
+    <Payment id="Payment_5">
+      <SeqID>5</SeqID>
+      <PayeeLast></PayeeLast>
+      <PayeeFirst></PayeeFirst>
+      <PayeeOrg>McCain Nursing home</PayeeOrg>
+      <PayeeAddressLine1>5555 State Route 133</PayeeAddressLine1>
+      <PayeeAddressLine2></PayeeAddressLine2>
+      <PayeeAddressLine3></PayeeAddressLine3>
+      <PayeeCity>Pleasant Plain</PayeeCity>
+      <PayeeState>AK</PayeeState>
+      <PayeeZip>75011</PayeeZip>
+      <PayeeAddressCountry>0</PayeeAddressCountry>
+      <PayeeTaxID>999999911</PayeeTaxID>
+      <PayeeTaxIDType>C</PayeeTaxIDType>
+      <ClaimAmount>215.00</ClaimAmount>
+      <CheckAmount>214.36</CheckAmount>
+      <LoanPaymentAmount>0.00</LoanPaymentAmount>
+      <InterestAmount>0.00</InterestAmount>
+      <CareGiverTrainingAmount>0.00</CareGiverTrainingAmount>
+      <TransitionPaymentAmount>0.00</TransitionPaymentAmount>
+      <FederalWithholdingAmount>0.43</FederalWithholdingAmount>
+      <StateWithholdingAmount>0.22</StateWithholdingAmount>
+      <CityWithholdingAmount>0.00</CityWithholdingAmount>
+      <BenefitPaymentID>123463</BenefitPaymentID>
+      <PaymentType>EFT</PaymentType>
+      <CheckNumber></CheckNumber>
+      <Reversal>N</Reversal>
+      <ReversalReason></ReversalReason>
+      <XOBInfo Id="XOB_Info_1">
+        <XOBUDSCode>4609</XOBUDSCode>
+        <Amount>215.00</Amount>
+        <ServicePeriodStart>20120510</ServicePeriodStart>
+        <ServicePeriodEnd>20120520</ServicePeriodEnd>
+        <ServiceUnits>10</ServiceUnits>
+        <ServiceUnitsMeasure>1</ServiceUnitsMeasure>
+      </XOBInfo>
+    </Payment>
+  </Claim>
+  <Claim id="Claim_10">
+    <SeqID>10</SeqID>
+    <Company>PL</Company>
+    <PolicyNumber>LTC5000920</PolicyNumber>
+    <ClaimEndDate>20120531</ClaimEndDate>
+    <ClaimStartDate>20120601</ClaimStartDate>
+    <EliminationDaysUsed>90</EliminationDaysUsed>
+    <EOBStatus>APPROVED</EOBStatus>
+    <Payment id="Payment_1">
+      <SeqID>1</SeqID>
+      <PayeeLast>Brazil</PayeeLast>
+      <PayeeFirst>Susan</PayeeFirst>
+      <PayeeOrg></PayeeOrg>
+      <PayeeAddressLine1>889 Three Rivers Ln</PayeeAddressLine1>
+      <PayeeAddressLine2></PayeeAddressLine2>
+      <PayeeAddressLine3></PayeeAddressLine3>
+      <PayeeCity>Dillon</PayeeCity>
+      <PayeeState>CO</PayeeState>
+      <PayeeZip>80434</PayeeZip>
+      <PayeeAddressCountry>0</PayeeAddressCountry>
+      <PayeeTaxID>555000222</PayeeTaxID>
+      <PayeeTaxIDType>I</PayeeTaxIDType>
+      <ClaimAmount>2000.00</ClaimAmount>
+      <CheckAmount>1994.00</CheckAmount>
+      <LoanPaymentAmount>0.00</LoanPaymentAmount>
+      <InterestAmount>0.00</InterestAmount>
+      <CareGiverTrainingAmount>500.00</CareGiverTrainingAmount>
+      <TransitionPaymentAmount>0.00</TransitionPaymentAmount>
+      <FederalWithholdingAmount>4.00</FederalWithholdingAmount>
+      <StateWithholdingAmount>2.00</StateWithholdingAmount>
+      <CityWithholdingAmount>0.00</CityWithholdingAmount>
+      <BenefitPaymentID>123464</BenefitPaymentID>
+      <PaymentType>CHECK</PaymentType>
+      <CheckNumber>52222</CheckNumber>
+      <Reversal>N</Reversal>
+      <ReversalReason></ReversalReason>
+      <XOBInfo Id="XOB_Info_1">
+        <XOBUDSCode>CGTN</XOBUDSCode>
+        <Amount>500.00</Amount>
+        <ServicePeriodStart>20120505</ServicePeriodStart>
+        <ServicePeriodEnd>20120520</ServicePeriodEnd>
+        <ServiceUnits>15</ServiceUnits>
+        <ServiceUnitsMeasure>2</ServiceUnitsMeasure>
+      </XOBInfo>
+      <XOBInfo Id="XOB_Info_2">
+        <XOBUDSCode>HCAR</XOBUDSCode>
+        <Amount>1500.00</Amount>
+        <ServicePeriodStart>20120501</ServicePeriodStart>
+        <ServicePeriodEnd>20120530</ServicePeriodEnd>
+        <ServiceUnits>4</ServiceUnits>
+        <ServiceUnitsMeasure>4</ServiceUnitsMeasure>
+      </XOBInfo>
+    </Payment>
+  </Claim>
+  <Claim id="Claim_11">
+    <SeqID>11</SeqID>
+    <Company>PL</Company>
+    <PolicyNumber>LTC5000950</PolicyNumber>
+    <ClaimEndDate>20120531</ClaimEndDate>
+    <ClaimStartDate>20120601</ClaimStartDate>
+    <EliminationDaysUsed>90</EliminationDaysUsed>
+    <EOBStatus>APPROVED</EOBStatus>
+    <Payment id="Payment_1">
+      <SeqID>1</SeqID>
+      <PayeeLast>Woods</PayeeLast>
+      <PayeeFirst>Bob</PayeeFirst>
+      <PayeeOrg></PayeeOrg>
+      <PayeeAddressLine1>3888 Linden Lane</PayeeAddressLine1>
+      <PayeeAddressLine2></PayeeAddressLine2>
+      <PayeeAddressLine3></PayeeAddressLine3>
+      <PayeeCity>Pittsburgh</PayeeCity>
+      <PayeeState>PA</PayeeState>
+      <PayeeZip>15244-1250</PayeeZip>
+      <PayeeAddressCountry>0</PayeeAddressCountry>
+      <PayeeTaxID>963805438</PayeeTaxID>
+      <PayeeTaxIDType>I</PayeeTaxIDType>
+      <ClaimAmount>1500.00</ClaimAmount>
+      <CheckAmount>1495.50</CheckAmount>
+      <LoanPaymentAmount>0.00</LoanPaymentAmount>
+      <InterestAmount>0.00</InterestAmount>
+      <CareGiverTrainingAmount>0.00</CareGiverTrainingAmount>
+      <TransitionPaymentAmount>0.00</TransitionPaymentAmount>
+      <FederalWithholdingAmount>3.00</FederalWithholdingAmount>
+      <StateWithholdingAmount>1.50</StateWithholdingAmount>
+      <CityWithholdingAmount>0.00</CityWithholdingAmount>
+      <BenefitPaymentID>123465</BenefitPaymentID>
+      <PaymentType>CHECK</PaymentType>
+      <CheckNumber>125222</CheckNumber>
+      <Reversal>N</Reversal>
+      <ReversalReason></ReversalReason>
+      <XOBInfo Id="XOB_Info_1">
+        <XOBUDSCode>8440</XOBUDSCode>
+        <Amount>700.00</Amount>
+        <ServicePeriodStart>20120520</ServicePeriodStart>
+        <ServicePeriodEnd>20120521</ServicePeriodEnd>
+        <ServiceUnits>2</ServiceUnits>
+        <ServiceUnitsMeasure>3</ServiceUnitsMeasure>
+      </XOBInfo>
+      <XOBInfo Id="XOB_Info_2">
+        <XOBUDSCode>5220</XOBUDSCode>
+        <Amount>800.00</Amount>
+        <ServicePeriodStart>20120505</ServicePeriodStart>
+        <ServicePeriodEnd>20120531</ServicePeriodEnd>
+        <ServiceUnits>15</ServiceUnits>
+        <ServiceUnitsMeasure>2</ServiceUnitsMeasure>
+      </XOBInfo>
+    </Payment>
+  </Claim>
+  <Claim id="Claim_12">
+    <SeqID>12</SeqID>
+    <Company>PL</Company>
+    <PolicyNumber>LTC5000960</PolicyNumber>
+    <ClaimEndDate>20120531</ClaimEndDate>
+    <ClaimStartDate>20120601</ClaimStartDate>
+    <EliminationDaysUsed>90</EliminationDaysUsed>
+    <EOBStatus>APPROVED</EOBStatus>
+    <Payment id="Payment_1">
+      <SeqID>1</SeqID>
+      <PayeeLast>RUFF</PayeeLast>
+      <PayeeFirst>Jim</PayeeFirst>
+      <PayeeOrg></PayeeOrg>
+      <PayeeAddressLine1>777 Mang Ave</PayeeAddressLine1>
+      <PayeeAddressLine2></PayeeAddressLine2>
+      <PayeeAddressLine3></PayeeAddressLine3>
+      <PayeeCity>Buffalo</PayeeCity>
+      <PayeeState>NY</PayeeState>
+      <PayeeZip>14510</PayeeZip>
+      <PayeeAddressCountry>0</PayeeAddressCountry>
+      <PayeeTaxID>718960945</PayeeTaxID>
+      <PayeeTaxIDType>I</PayeeTaxIDType>
+      <ClaimAmount>500.00</ClaimAmount>
+      <CheckAmount>498.50</CheckAmount>
+      <LoanPaymentAmount>0.00</LoanPaymentAmount>
+      <InterestAmount>0.00</InterestAmount>
+      <CareGiverTrainingAmount>0.00</CareGiverTrainingAmount>
+      <TransitionPaymentAmount>0.00</TransitionPaymentAmount>
+      <FederalWithholdingAmount>1.00</FederalWithholdingAmount>
+      <StateWithholdingAmount>0.50</StateWithholdingAmount>
+      <CityWithholdingAmount>0.00</CityWithholdingAmount>
+      <BenefitPaymentID>123466</BenefitPaymentID>
+      <PaymentType>CHECK</PaymentType>
+      <CheckNumber>11100</CheckNumber>
+      <Reversal>N</Reversal>
+      <ReversalReason></ReversalReason>
+      <XOBInfo Id="XOB_Info_1">
+        <XOBUDSCode>4900</XOBUDSCode>
+        <Amount>500.00</Amount>
+        <ServicePeriodStart>20120501</ServicePeriodStart>
+        <ServicePeriodEnd>20120531</ServicePeriodEnd>
+        <ServiceUnits>30</ServiceUnits>
+        <ServiceUnitsMeasure>3</ServiceUnitsMeasure>
+      </XOBInfo>
+    </Payment>
+    <Payment id="Payment_2">
+      <SeqID>2</SeqID>
+      <PayeeLast></PayeeLast>
+      <PayeeFirst></PayeeFirst>
+      <PayeeOrg>Mang Nursing Home</PayeeOrg>
+      <PayeeAddressLine1>777 Mang Ave</PayeeAddressLine1>
+      <PayeeAddressLine2>Attn: Jim Ruff</PayeeAddressLine2>
+      <PayeeAddressLine3></PayeeAddressLine3>
+      <PayeeCity>Buffalo</PayeeCity>
+      <PayeeState>NY</PayeeState>
+      <PayeeZip>14510</PayeeZip>
+      <PayeeAddressCountry>0</PayeeAddressCountry>
+      <PayeeTaxID>718960945</PayeeTaxID>
+      <PayeeTaxIDType>C</PayeeTaxIDType>
+      <ClaimAmount>1000.00</ClaimAmount>
+      <CheckAmount>997.00</CheckAmount>
+      <LoanPaymentAmount>0.00</LoanPaymentAmount>
+      <InterestAmount>0.00</InterestAmount>
+      <CareGiverTrainingAmount>0.00</CareGiverTrainingAmount>
+      <TransitionPaymentAmount>0.00</TransitionPaymentAmount>
+      <FederalWithholdingAmount>2.00</FederalWithholdingAmount>
+      <StateWithholdingAmount>1.00</StateWithholdingAmount>
+      <CityWithholdingAmount>0.00</CityWithholdingAmount>
+      <BenefitPaymentID>123467</BenefitPaymentID>
+      <PaymentType>CHECK</PaymentType>
+      <CheckNumber>11110</CheckNumber>
+      <Reversal>N</Reversal>
+      <ReversalReason></ReversalReason>
+      <XOBInfo Id="XOB_Info_1">
+        <XOBUDSCode>NHSK</XOBUDSCode>
+        <Amount>1000.00</Amount>
+        <ServicePeriodStart>20120525</ServicePeriodStart>
+        <ServicePeriodEnd>20120531</ServicePeriodEnd>
+        <ServiceUnits>1</ServiceUnits>
+        <ServiceUnitsMeasure>9</ServiceUnitsMeasure>
+      </XOBInfo>
+    </Payment>
+    <Payment id="Payment_3">
+      <SeqID>3</SeqID>
+      <PayeeLast>RUFF</PayeeLast>
+      <PayeeFirst>Jim</PayeeFirst>
+      <PayeeOrg></PayeeOrg>
+      <PayeeAddressLine1>777 Mang Ave</PayeeAddressLine1>
+      <PayeeAddressLine2></PayeeAddressLine2>
+      <PayeeAddressLine3></PayeeAddressLine3>
+      <PayeeCity>Buffalo</PayeeCity>
+      <PayeeState>NY</PayeeState>
+      <PayeeZip>14510</PayeeZip>
+      <PayeeAddressCountry>0</PayeeAddressCountry>
+      <PayeeTaxID>718960945</PayeeTaxID>
+      <PayeeTaxIDType>I</PayeeTaxIDType>
+      <ClaimAmount>250.00</ClaimAmount>
+      <CheckAmount>249.25</CheckAmount>
+      <LoanPaymentAmount>0.00</LoanPaymentAmount>
+      <InterestAmount>0.00</InterestAmount>
+      <CareGiverTrainingAmount>0.00</CareGiverTrainingAmount>
+      <TransitionPaymentAmount>0.00</TransitionPaymentAmount>
+      <FederalWithholdingAmount>0.50</FederalWithholdingAmount>
+      <StateWithholdingAmount>0.25</StateWithholdingAmount>
+      <CityWithholdingAmount>0.00</CityWithholdingAmount>
+      <BenefitPaymentID>123468</BenefitPaymentID>
+      <PaymentType>CHECK</PaymentType>
+      <CheckNumber>11111</CheckNumber>
+      <Reversal>N</Reversal>
+      <ReversalReason></ReversalReason>
+      <XOBInfo Id="XOB_Info_1">
+        <XOBUDSCode>8290</XOBUDSCode>
+        <Amount>250.00</Amount>
+        <ServicePeriodStart>20120529</ServicePeriodStart>
+        <ServicePeriodEnd>20120531</ServicePeriodEnd>
+        <ServiceUnits>2</ServiceUnits>
+        <ServiceUnitsMeasure>3</ServiceUnitsMeasure>
+      </XOBInfo>
+    </Payment>
+  </Claim>
+  <Claim id="Claim_13">
+    <SeqID>13</SeqID>
+    <Company>PL</Company>
+    <PolicyNumber>LTC5001110</PolicyNumber>
+    <ClaimEndDate>20120531</ClaimEndDate>
+    <ClaimStartDate>20120601</ClaimStartDate>
+    <EliminationDaysUsed>90</EliminationDaysUsed>
+    <EOBStatus>APPROVED</EOBStatus>
+    <Payment id="Payment_1">
+      <SeqID>1</SeqID>
+      <PayeeLast>Sloan</PayeeLast>
+      <PayeeFirst>Bernard</PayeeFirst>
+      <PayeeOrg></PayeeOrg>
+      <PayeeAddressLine1>6000 Orlando Rd</PayeeAddressLine1>
+      <PayeeAddressLine2></PayeeAddressLine2>
+      <PayeeAddressLine3></PayeeAddressLine3>
+      <PayeeCity>Sugar Land</PayeeCity>
+      <PayeeState>TX</PayeeState>
+      <PayeeZip>77498</PayeeZip>
+      <PayeeAddressCountry>0</PayeeAddressCountry>
+      <PayeeTaxID>982373450</PayeeTaxID>
+      <PayeeTaxIDType>I</PayeeTaxIDType>
+      <ClaimAmount>1250.00</ClaimAmount>
+      <CheckAmount>1246.25</CheckAmount>
+      <LoanPaymentAmount>200.00</LoanPaymentAmount>
+      <InterestAmount>0.00</InterestAmount>
+      <CareGiverTrainingAmount>0.00</CareGiverTrainingAmount>
+      <TransitionPaymentAmount>0.00</TransitionPaymentAmount>
+      <FederalWithholdingAmount>2.50</FederalWithholdingAmount>
+      <StateWithholdingAmount>1.25</StateWithholdingAmount>
+      <CityWithholdingAmount>0.00</CityWithholdingAmount>
+      <BenefitPaymentID>123469</BenefitPaymentID>
+      <PaymentType>EFT</PaymentType>
+      <CheckNumber></CheckNumber>
+      <Reversal>N</Reversal>
+      <ReversalReason></ReversalReason>
+      <XOBInfo Id="XOB_Info_1">
+        <XOBUDSCode>5400</XOBUDSCode>
+        <Amount>1050.00</Amount>
+        <ServicePeriodStart>20120523</ServicePeriodStart>
+        <ServicePeriodEnd>20120531</ServicePeriodEnd>
+        <ServiceUnits>30</ServiceUnits>
+        <ServiceUnitsMeasure>1</ServiceUnitsMeasure>
+      </XOBInfo>
+    </Payment>
+  </Claim>
+  <Claim id="Claim_14">
+    <SeqID>14</SeqID>
+    <Company>PL</Company>
+    <PolicyNumber>LTC5001200</PolicyNumber>
+    <ClaimEndDate>20120531</ClaimEndDate>
+    <ClaimStartDate>20120601</ClaimStartDate>
+    <EliminationDaysUsed>90</EliminationDaysUsed>
+    <EOBStatus>APPROVED</EOBStatus>
+    <Payment id="Payment_1">
+      <SeqID>1</SeqID>
+      <PayeeLast>Brown</PayeeLast>
+      <PayeeFirst>Jackson</PayeeFirst>
+      <PayeeOrg></PayeeOrg>
+      <PayeeAddressLine1>790 Robinon Rd</PayeeAddressLine1>
+      <PayeeAddressLine2></PayeeAddressLine2>
+      <PayeeAddressLine3></PayeeAddressLine3>
+      <PayeeCity>Mooresville</PayeeCity>
+      <PayeeState>NC</PayeeState>
+      <PayeeZip>28117</PayeeZip>
+      <PayeeAddressCountry>0</PayeeAddressCountry>
+      <PayeeTaxID>542665210</PayeeTaxID>
+      <PayeeTaxIDType>I</PayeeTaxIDType>
+      <ClaimAmount>550.00</ClaimAmount>
+      <CheckAmount>548.35</CheckAmount>
+      <LoanPaymentAmount>0.00</LoanPaymentAmount>
+      <InterestAmount>0.00</InterestAmount>
+      <CareGiverTrainingAmount>0.00</CareGiverTrainingAmount>
+      <TransitionPaymentAmount>0.00</TransitionPaymentAmount>
+      <FederalWithholdingAmount>1.10</FederalWithholdingAmount>
+      <StateWithholdingAmount>0.55</StateWithholdingAmount>
+      <CityWithholdingAmount>0.00</CityWithholdingAmount>
+      <BenefitPaymentID>123470</BenefitPaymentID>
+      <PaymentType>EFT</PaymentType>
+      <CheckNumber></CheckNumber>
+      <Reversal>N</Reversal>
+      <ReversalReason></ReversalReason>
+      <XOBInfo Id="XOB_Info_1">
+        <XOBUDSCode>5400</XOBUDSCode>
+        <Amount>550.00</Amount>
+        <ServicePeriodStart>20120501</ServicePeriodStart>
+        <ServicePeriodEnd>20120515</ServicePeriodEnd>
+        <ServiceUnits>10</ServiceUnits>
+        <ServiceUnitsMeasure>1</ServiceUnitsMeasure>
+      </XOBInfo>
+    </Payment>
+  </Claim>
+  <Claim id="Claim_15">
+    <SeqID>15</SeqID>
+    <Company>PL</Company>
+    <PolicyNumber>LTC5001250</PolicyNumber>
+    <ClaimEndDate>20120531</ClaimEndDate>
+    <ClaimStartDate>20120601</ClaimStartDate>
+    <EliminationDaysUsed>90</EliminationDaysUsed>
+    <EOBStatus>APPROVED</EOBStatus>
+    <Payment id="Payment_1">
+      <SeqID>1</SeqID>
+      <PayeeLast></PayeeLast>
+      <PayeeFirst></PayeeFirst>
+      <PayeeOrg>Good Nursing Home</PayeeOrg>
+      <PayeeAddressLine1>PO Box 85A</PayeeAddressLine1>
+      <PayeeAddressLine2>1000 Zachry Kingston Dr</PayeeAddressLine2>
+      <PayeeAddressLine3></PayeeAddressLine3>
+      <PayeeCity>Kingston</PayeeCity>
+      <PayeeState>TN</PayeeState>
+      <PayeeZip>37763-7007</PayeeZip>
+      <PayeeAddressCountry>0</PayeeAddressCountry>
+      <PayeeTaxID>378113412</PayeeTaxID>
+      <PayeeTaxIDType>I</PayeeTaxIDType>
+      <ClaimAmount>910.00</ClaimAmount>
+      <CheckAmount>908.64</CheckAmount>
+      <LoanPaymentAmount>0.00</LoanPaymentAmount>
+      <InterestAmount>0.00</InterestAmount>
+      <CareGiverTrainingAmount>0.00</CareGiverTrainingAmount>
+      <TransitionPaymentAmount>0.00</TransitionPaymentAmount>
+      <FederalWithholdingAmount>0.00</FederalWithholdingAmount>
+      <StateWithholdingAmount>0.91</StateWithholdingAmount>
+      <CityWithholdingAmount>0.46</CityWithholdingAmount>
+      <BenefitPaymentID>123471</BenefitPaymentID>
+      <PaymentType>CHECK</PaymentType>
+      <CheckNumber>690</CheckNumber>
+      <Reversal>N</Reversal>
+      <ReversalReason></ReversalReason>
+      <XOBInfo Id="XOB_Info_1">
+        <XOBUDSCode>FCAR</XOBUDSCode>
+        <Amount>910.00</Amount>
+        <ServicePeriodStart>20120515</ServicePeriodStart>
+        <ServicePeriodEnd>20120525</ServicePeriodEnd>
+        <ServiceUnits>10</ServiceUnits>
+        <ServiceUnitsMeasure>3</ServiceUnitsMeasure>
+      </XOBInfo>
+    </Payment>
+    <Payment id="Payment_2">
+      <SeqID>2</SeqID>
+      <PayeeLast></PayeeLast>
+      <PayeeFirst></PayeeFirst>
+      <PayeeOrg>Good Nursing Home</PayeeOrg>
+      <PayeeAddressLine1>PO Box 85A</PayeeAddressLine1>
+      <PayeeAddressLine2>1000 Zachry Kingston Dr</PayeeAddressLine2>
+      <PayeeAddressLine3></PayeeAddressLine3>
+      <PayeeCity>Kingston</PayeeCity>
+      <PayeeState>TN</PayeeState>
+      <PayeeZip>37763-7007</PayeeZip>
+      <PayeeAddressCountry>0</PayeeAddressCountry>
+      <PayeeTaxID>378113412</PayeeTaxID>
+      <PayeeTaxIDType>I</PayeeTaxIDType>
+      <ClaimAmount>120.00</ClaimAmount>
+      <CheckAmount>119.82</CheckAmount>
+      <LoanPaymentAmount>0.00</LoanPaymentAmount>
+      <InterestAmount>0.00</InterestAmount>
+      <CareGiverTrainingAmount>0.00</CareGiverTrainingAmount>
+      <TransitionPaymentAmount>0.00</TransitionPaymentAmount>
+      <FederalWithholdingAmount>0.00</FederalWithholdingAmount>
+      <StateWithholdingAmount>0.12</StateWithholdingAmount>
+      <CityWithholdingAmount>0.06</CityWithholdingAmount>
+      <BenefitPaymentID>123472</BenefitPaymentID>
+      <PaymentType>CHECK</PaymentType>
+      <CheckNumber>750</CheckNumber>
+      <Reversal>N</Reversal>
+      <ReversalReason></ReversalReason>
+      <XOBInfo Id="XOB_Info_1">
+        <XOBUDSCode>8290</XOBUDSCode>
+        <Amount>120.00</Amount>
+        <ServicePeriodStart>20120514</ServicePeriodStart>
+        <ServicePeriodEnd>20120515</ServicePeriodEnd>
+        <ServiceUnits>2</ServiceUnits>
+        <ServiceUnitsMeasure>3</ServiceUnitsMeasure>
+      </XOBInfo>
+    </Payment>
+  </Claim>
+  <Claim id="Claim_16">
+    <SeqID>16</SeqID>
+    <Company>PL</Company>
+    <PolicyNumber>LTC5001460</PolicyNumber>
+    <ClaimEndDate>20120531</ClaimEndDate>
+    <ClaimStartDate>20120601</ClaimStartDate>
+    <EliminationDaysUsed>90</EliminationDaysUsed>
+    <EOBStatus>APPROVED</EOBStatus>
+    <Payment id="Payment_1">
+      <SeqID>1</SeqID>
+      <PayeeLast>Muffek</PayeeLast>
+      <PayeeFirst>Mary</PayeeFirst>
+      <PayeeOrg></PayeeOrg>
+      <PayeeAddressLine1>333 Clear Water</PayeeAddressLine1>
+      <PayeeAddressLine2></PayeeAddressLine2>
+      <PayeeAddressLine3></PayeeAddressLine3>
+      <PayeeCity>Wesca</PayeeCity>
+      <PayeeState>MN</PayeeState>
+      <PayeeZip>56093-4615</PayeeZip>
+      <PayeeAddressCountry>0</PayeeAddressCountry>
+      <PayeeTaxID>588447662</PayeeTaxID>
+      <PayeeTaxIDType>I</PayeeTaxIDType>
+      <ClaimAmount>1550.00</ClaimAmount>
+      <CheckAmount>1545.35</CheckAmount>
+      <LoanPaymentAmount>0.00</LoanPaymentAmount>
+      <InterestAmount>0.00</InterestAmount>
+      <CareGiverTrainingAmount>0.00</CareGiverTrainingAmount>
+      <TransitionPaymentAmount>0.00</TransitionPaymentAmount>
+      <FederalWithholdingAmount>3.10</FederalWithholdingAmount>
+      <StateWithholdingAmount>1.55</StateWithholdingAmount>
+      <CityWithholdingAmount>0.00</CityWithholdingAmount>
+      <BenefitPaymentID>123473</BenefitPaymentID>
+      <PaymentType>CHECK</PaymentType>
+      <CheckNumber>11199</CheckNumber>
+      <Reversal>N</Reversal>
+      <ReversalReason></ReversalReason>
+      <XOBInfo Id="XOB_Info_1">
+        <XOBUDSCode>HCAR</XOBUDSCode>
+        <Amount>1550.00</Amount>
+        <ServicePeriodStart>20120418</ServicePeriodStart>
+        <ServicePeriodEnd>20120530</ServicePeriodEnd>
+        <ServiceUnits>48</ServiceUnits>
+        <ServiceUnitsMeasure>3</ServiceUnitsMeasure>
+      </XOBInfo>
+    </Payment>
+  </Claim>
+  <Claim id="Claim_17">
+    <SeqID>17</SeqID>
+    <Company>PL</Company>
+    <PolicyNumber>LTC5001940</PolicyNumber>
+    <ClaimEndDate>20120531</ClaimEndDate>
+    <ClaimStartDate>20120601</ClaimStartDate>
+    <EliminationDaysUsed>90</EliminationDaysUsed>
+    <EOBStatus>APPROVED</EOBStatus>
+    <Payment id="Payment_1">
+      <SeqID>1</SeqID>
+      <PayeeLast>Lund</PayeeLast>
+      <PayeeFirst>Allen</PayeeFirst>
+      <PayeeOrg></PayeeOrg>
+      <PayeeAddressLine1>444 Park Way</PayeeAddressLine1>
+      <PayeeAddressLine2></PayeeAddressLine2>
+      <PayeeAddressLine3></PayeeAddressLine3>
+      <PayeeCity>Aliso</PayeeCity>
+      <PayeeState>CA</PayeeState>
+      <PayeeZip>95626</PayeeZip>
+      <PayeeAddressCountry>0</PayeeAddressCountry>
+      <PayeeTaxID>424129732</PayeeTaxID>
+      <PayeeTaxIDType>I</PayeeTaxIDType>
+      <ClaimAmount>250.00</ClaimAmount>
+      <CheckAmount>249.25</CheckAmount>
+      <LoanPaymentAmount>0.00</LoanPaymentAmount>
+      <InterestAmount>0.00</InterestAmount>
+      <CareGiverTrainingAmount>0.00</CareGiverTrainingAmount>
+      <TransitionPaymentAmount>0.00</TransitionPaymentAmount>
+      <FederalWithholdingAmount>0.50</FederalWithholdingAmount>
+      <StateWithholdingAmount>0.25</StateWithholdingAmount>
+      <CityWithholdingAmount>0.00</CityWithholdingAmount>
+      <BenefitPaymentID>123474</BenefitPaymentID>
+      <PaymentType>EFT</PaymentType>
+      <CheckNumber></CheckNumber>
+      <Reversal>N</Reversal>
+      <ReversalReason></ReversalReason>
+      <XOBInfo Id="XOB_Info_1">
+        <XOBUDSCode>7810</XOBUDSCode>
+        <Amount>250.00</Amount>
+        <ServicePeriodStart>20120501</ServicePeriodStart>
+        <ServicePeriodEnd>20120502</ServicePeriodEnd>
+        <ServiceUnits>2</ServiceUnits>
+        <ServiceUnitsMeasure>2</ServiceUnitsMeasure>
+      </XOBInfo>
+    </Payment>
+  </Claim>
+  <Claim id="Claim_18">
+    <SeqID>18</SeqID>
+    <Company>PL</Company>
+    <PolicyNumber>LTC5001930</PolicyNumber>
+    <ClaimEndDate>20120531</ClaimEndDate>
+    <ClaimStartDate>20120601</ClaimStartDate>
+    <EliminationDaysUsed>90</EliminationDaysUsed>
+    <EOBStatus>APPROVED</EOBStatus>
+    <Payment id="Payment_1">
+      <SeqID>1</SeqID>
+      <PayeeLast>Boyer</PayeeLast>
+      <PayeeFirst>Doren</PayeeFirst>
+      <PayeeOrg></PayeeOrg>
+      <PayeeAddressLine1>4485 Lincoln Ave</PayeeAddressLine1>
+      <PayeeAddressLine2>House #250</PayeeAddressLine2>
+      <PayeeAddressLine3></PayeeAddressLine3>
+      <PayeeCity>Herculaneum</PayeeCity>
+      <PayeeState>MO</PayeeState>
+      <PayeeZip>63048</PayeeZip>
+      <PayeeAddressCountry>0</PayeeAddressCountry>
+      <PayeeTaxID>463137494</PayeeTaxID>
+      <PayeeTaxIDType>I</PayeeTaxIDType>
+      <ClaimAmount>3500.00</ClaimAmount>
+      <CheckAmount>3489.50</CheckAmount>
+      <LoanPaymentAmount>0.00</LoanPaymentAmount>
+      <InterestAmount>0.00</InterestAmount>
+      <CareGiverTrainingAmount>0.00</CareGiverTrainingAmount>
+      <TransitionPaymentAmount>0.00</TransitionPaymentAmount>
+      <FederalWithholdingAmount>7.00</FederalWithholdingAmount>
+      <StateWithholdingAmount>3.50</StateWithholdingAmount>
+      <CityWithholdingAmount>0.00</CityWithholdingAmount>
+      <BenefitPaymentID>123475</BenefitPaymentID>
+      <PaymentType>EFT</PaymentType>
+      <CheckNumber></CheckNumber>
+      <Reversal>N</Reversal>
+      <ReversalReason></ReversalReason>
+      <XOBInfo Id="XOB_Info_1">
+        <XOBUDSCode>7812</XOBUDSCode>
+        <Amount>500.00</Amount>
+        <ServicePeriodStart>20120501</ServicePeriodStart>
+        <ServicePeriodEnd>20120502</ServicePeriodEnd>
+        <ServiceUnits>2</ServiceUnits>
+        <ServiceUnitsMeasure>2</ServiceUnitsMeasure>
+      </XOBInfo>
+      <XOBInfo Id="XOB_Info_2">
+        <XOBUDSCode>8220</XOBUDSCode>
+        <Amount>1500.00</Amount>
+        <ServicePeriodStart>20120501</ServicePeriodStart>
+        <ServicePeriodEnd>20120501</ServicePeriodEnd>
+        <ServiceUnits>1</ServiceUnits>
+        <ServiceUnitsMeasure>3</ServiceUnitsMeasure>
+      </XOBInfo>
+      <XOBInfo Id="XOB_Info_3">
+        <XOBUDSCode>8440</XOBUDSCode>
+        <Amount>1500.00</Amount>
+        <ServicePeriodStart>20120505</ServicePeriodStart>
+        <ServicePeriodEnd>20120505</ServicePeriodEnd>
+        <ServiceUnits>1</ServiceUnits>
+        <ServiceUnitsMeasure>3</ServiceUnitsMeasure>
+      </XOBInfo>
+    </Payment>
+  </Claim>
+  <Claim id="Claim_19">
+    <SeqID>19</SeqID>
+    <Company>PL</Company>
+    <PolicyNumber>LTC5001700</PolicyNumber>
+    <ClaimEndDate>20120531</ClaimEndDate>
+    <ClaimStartDate>20120601</ClaimStartDate>
+    <EliminationDaysUsed>90</EliminationDaysUsed>
+    <EOBStatus>APPROVED</EOBStatus>
+    <Payment id="Payment_1">
+      <SeqID>1</SeqID>
+      <PayeeLast>Diamond</PayeeLast>
+      <PayeeFirst>Jones</PayeeFirst>
+      <PayeeOrg></PayeeOrg>
+      <PayeeAddressLine1>500 Eastgreen Rd</PayeeAddressLine1>
+      <PayeeAddressLine2></PayeeAddressLine2>
+      <PayeeAddressLine3></PayeeAddressLine3>
+      <PayeeCity>Westerville</PayeeCity>
+      <PayeeState>OH</PayeeState>
+      <PayeeZip>43082</PayeeZip>
+      <PayeeAddressCountry>0</PayeeAddressCountry>
+      <PayeeTaxID>199823672</PayeeTaxID>
+      <PayeeTaxIDType>I</PayeeTaxIDType>
+      <ClaimAmount>4100.00</ClaimAmount>
+      <CheckAmount>4087.70</CheckAmount>
+      <LoanPaymentAmount>0.00</LoanPaymentAmount>
+      <InterestAmount>0.00</InterestAmount>
+      <CareGiverTrainingAmount>0.00</CareGiverTrainingAmount>
+      <TransitionPaymentAmount>0.00</TransitionPaymentAmount>
+      <FederalWithholdingAmount>8.20</FederalWithholdingAmount>
+      <StateWithholdingAmount>4.10</StateWithholdingAmount>
+      <CityWithholdingAmount>0.00</CityWithholdingAmount>
+      <BenefitPaymentID>123476</BenefitPaymentID>
+      <PaymentType>CHECK</PaymentType>
+      <CheckNumber>175611</CheckNumber>
+      <Reversal>N</Reversal>
+      <ReversalReason></ReversalReason>
+      <XOBInfo Id="XOB_Info_1">
+        <XOBUDSCode>9000</XOBUDSCode>
+        <Amount>4100.00</Amount>
+        <ServicePeriodStart>20120501</ServicePeriodStart>
+        <ServicePeriodEnd>20120530</ServicePeriodEnd>
+        <ServiceUnits>1</ServiceUnits>
+        <ServiceUnitsMeasure>5</ServiceUnitsMeasure>
+      </XOBInfo>
+    </Payment>
+  </Claim>
+  <Claim id="Claim_20">
+    <SeqID>20</SeqID>
+    <Company>PL</Company>
+    <PolicyNumber>LTC5001710</PolicyNumber>
+    <ClaimEndDate>20120531</ClaimEndDate>
+    <ClaimStartDate>20120601</ClaimStartDate>
+    <EliminationDaysUsed>90</EliminationDaysUsed>
+    <EOBStatus>APPROVED</EOBStatus>
+    <Payment id="Payment_1">
+      <SeqID>1</SeqID>
+      <PayeeLast>Kehha</PayeeLast>
+      <PayeeFirst>Linda</PayeeFirst>
+      <PayeeOrg></PayeeOrg>
+      <PayeeAddressLine1>179 Bethany Way</PayeeAddressLine1>
+      <PayeeAddressLine2></PayeeAddressLine2>
+      <PayeeAddressLine3></PayeeAddressLine3>
+      <PayeeCity>Greenville</PayeeCity>
+      <PayeeState>WI</PayeeState>
+      <PayeeZip>54304</PayeeZip>
+      <PayeeAddressCountry>0</PayeeAddressCountry>
+      <PayeeTaxID>547327214</PayeeTaxID>
+      <PayeeTaxIDType>I</PayeeTaxIDType>
+      <ClaimAmount>5000.00</ClaimAmount>
+      <CheckAmount>4982.50</CheckAmount>
+      <LoanPaymentAmount>0.00</LoanPaymentAmount>
+      <InterestAmount>0.00</InterestAmount>
+      <CareGiverTrainingAmount>0.00</CareGiverTrainingAmount>
+      <TransitionPaymentAmount>0.00</TransitionPaymentAmount>
+      <FederalWithholdingAmount>10.00</FederalWithholdingAmount>
+      <StateWithholdingAmount>5.00</StateWithholdingAmount>
+      <CityWithholdingAmount>2.50</CityWithholdingAmount>
+      <BenefitPaymentID>123477</BenefitPaymentID>
+      <PaymentType>CHECK</PaymentType>
+      <CheckNumber>98510</CheckNumber>
+      <Reversal>N</Reversal>
+      <ReversalReason></ReversalReason>
+      <XOBInfo Id="XOB_Info_1">
+        <XOBUDSCode>9000</XOBUDSCode>
+        <Amount>5000.00</Amount>
+        <ServicePeriodStart>20120501</ServicePeriodStart>
+        <ServicePeriodEnd>20120531</ServicePeriodEnd>
+        <ServiceUnits>1</ServiceUnits>
+        <ServiceUnitsMeasure>5</ServiceUnitsMeasure>
+      </XOBInfo>
+    </Payment>
+  </Claim>
+</ClaimFile>

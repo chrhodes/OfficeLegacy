@@ -1,0 +1,57 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" onLoad="OnLoad">
+  <ribbon>
+    <tabs>
+		<tab id="SharePointDashBoardT" label="SharePointDashBoard">
+			<group id="SharePointDashBoardG" label="Server Info" visible="true">
+				<button id="Config"
+						label="Config"
+						screentip="Display Config Task Pane"
+						onAction="TaskPane_Config_Click"
+						imageMso="HappyFace"/>
+				
+				<button id="CreateSheets"
+						label="CreateSheets"
+						screentip="Display CreateSheets Task Pane"
+						onAction="TaskPane_CreateSheets_Click"
+						imageMso="HappyFace"/>
+
+				<button id="FarmHealth"
+						label="Farm Health"
+						screentip="Display Farm Health"
+						onAction="TaskPane_FarmHealth_Click"
+						imageMso="HappyFace"/>
+
+				<button id="LogicalDiskInfo"
+						label="LogicalDisk Info"
+						screentip="Display LogicalDisk Info"
+						onAction="TaskPane_LogicalDiskInfo_Click"
+						imageMso="HappyFace"/>
+				
+				<button id="MemoryDeviceInfo"
+						label="MemoryDevice Info"
+						screentip="Display MemoryDevice Info"
+						onAction="TaskPane_MemoryDeviceInfo_Click"
+						imageMso="HappyFace"/>
+				
+				<button id="PhysicalMemoryInfo"
+						label="PhysicalMemory Info"
+						screentip="Display PhysicalMemory Info"
+						onAction="TaskPane_PhysicalMemoryInfo_Click"
+						imageMso="HappyFace"/>
+
+				<button id="ProcessorInfo"
+						label="Processor Info"
+						screentip="Display Processor Info"
+						onAction="TaskPane_ProcessorInfo_Click"
+						imageMso="HappyFace"/>
+
+				<button id="Help"
+						label="Help"
+						screentip="Display Help Task Pane"
+						onAction="TaskPane_Help_Click"
+						imageMso="HappyFace"/>
+			</group>
+		</tab>
+    </tabs>
+  </ribbon>
+</customUI>

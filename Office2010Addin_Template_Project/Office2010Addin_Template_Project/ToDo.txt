@@ -1,0 +1,23 @@
+
+Using the Office2010Addin_Template_Project template
+----------------------------------------------
+Some template variables do not expand correctly.  The following changes need to be made before
+the template will compile:
+
+1. Change $rootnamespace$ in Resources.Designer.vb to the root namespace of the solution.  See Project/Properties for correct value.
+   The values should be quoted, e.g.: "MyRootNameSpace"
+2. Change $rootnamespace$ in Settings.Designer.vb to the root namespace of the solution.
+
+The template will now compile, however, you may want to also change the following:
+
+3. Change Excel_Addin_With_Task_Panes_Template in Ribbon.vb to the root namespace of the solution.
+   The value should be a string.
+4. Change "CustomTaskPanes" and "Custom Task Panes" in Riboon.xml.  The other buttons will likely change
+   depending on your application.
+5. Update Globals.vb as appropriate.  THe first few Public Constants should be updated at a minimum.
+   Update NEWAPPNAME.
+6. Update NEWAPPNAME in App.Config logging to reflect the name chosen in Globals.
+7. Globaly rename 
+
+SupportTools
+------------

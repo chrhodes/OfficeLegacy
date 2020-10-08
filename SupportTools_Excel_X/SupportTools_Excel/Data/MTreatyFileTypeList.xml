@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FileTypeList>
+	<FileType Name="FundAdvisoryFees" 			RelativePath=".\CorporateFinance_FundAdvisoryFees" />
+	<FileType Name="FundServiceFees" 			RelativePath=".\CorporateFinance_FundServiceFees" />  
+	<FileType Name="CashManagementFees" 		RelativePath=".\LifeFinancialReporting_CashManagementFees" />  
+	<FileType Name="ExcludedPolicies" 			RelativePath=".\LifeReinsurance_ExcludedPolicies" />  
+	<FileType Name="PolicyValueAdjustments" 	RelativePath=".\LifeReinsurance_ManualPolicyValueAdjustments" />  
+	<FileType Name="SettlementFinancialValues" 	RelativePath=".\LifeReinsurance_SettlementFinancialValues" /> 
+	<FileType Name="PolicyValueAdjustments" 	RelativePath=".\LifeReinsurance_VITSFees" /> 
+</FileTypeList>

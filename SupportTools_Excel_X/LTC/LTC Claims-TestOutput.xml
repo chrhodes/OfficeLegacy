@@ -1,0 +1,88 @@
+<ClaimFile>
+  <FileControl>
+    <SystemControl>UVC</SystemControl>
+    <CycleDate>20120420</CycleDate>
+    <CountClaimRecord>1</CountClaimRecord>
+    <CountClaimPayment>2</CountClaimPayment>
+    <XOBUDSCodeCount>5</XOBUDSCodeCount>
+    <ClaimPaymentTotalAmount>2,111.11</ClaimPaymentTotalAmount>
+    <InterestPaymentTotalAmount>0.00</InterestPaymentTotalAmount>
+    <CareGiverTrainingTotal>200.00</CareGiverTrainingTotal>
+    <TransitionPaymentTotalAmount>0.00</TransitionPaymentTotalAmount>
+    <FederalWitholdingTotalAmount>1.11</FederalWitholdingTotalAmount>
+    <StateWithholdingTotalAmount>0.00</StateWithholdingTotalAmount>
+    <CityWithholdingTotalAmount>0.00</CityWithholdingTotalAmount>
+    <CheckAmountTotalAmount>2,110.00</CheckAmountTotalAmount>
+    <XOBUDSCodeAmount>2,511.11</XOBUDSCodeAmount>
+  </FileControl>
+  <Claim id="Claim_1">
+    <SeqID>1</SeqID>
+    <Company>PL</Company>
+    <PolicyNumber>LTC5123450</PolicyNumber>
+    <ClaimEndDate>20130301</ClaimEndDate>
+    <ClaimStartDate>20120301</ClaimStartDate>
+    <EliminationDaysUsed>10</EliminationDaysUsed>
+    <EOBStatus>Approved</EOBStatus>
+    <Payment id="Payment_1">
+      <SeqID>1</SeqID>
+      <PayeeLast>Nguyen</PayeeLast>
+      <PayeeFirst>Nicole</PayeeFirst>
+      <PayeeOrg></PayeeOrg>
+      <PayeeAddressLine1>123 Main St</PayeeAddressLine1>
+      <PayeeAddressLine2></PayeeAddressLine2>
+      <PayeeAddressLine3></PayeeAddressLine3>
+      <PayeeCity>Fountain Valley</PayeeCity>
+      <PayeeState>CA</PayeeState>
+      <PayeeZip>92728</PayeeZip>
+      <PayeeAddressCountry>0</PayeeAddressCountry>
+      <PayeeTaxID>999554444</PayeeTaxID>
+      <PayeeTaxIDType>I</PayeeTaxIDType>
+      <ClaimAmount>1,111.11</ClaimAmount>
+      <CheckAmount>1,110.00</CheckAmount>
+      <LoanPaymentAmount>0.00</LoanPaymentAmount>
+      <InterestAmount>0.00</InterestAmount>
+      <CareGiverTrainingAmount>200.00</CareGiverTrainingAmount>
+      <TransitionPaymentAmount>0.00</TransitionPaymentAmount>
+      <FederalWithholdingAmount>1.11</FederalWithholdingAmount>
+      <StateWithholdingAmount>0.00</StateWithholdingAmount>
+      <CityWithholdingAmount>0.00</CityWithholdingAmount>
+      <BenefitPaymentID>989786</BenefitPaymentID>
+      <PaymentType>EFT</PaymentType>
+      <CheckNumber></CheckNumber>
+      <Reversal>N</Reversal>
+      <ReversalReason></ReversalReason>
+      <XOBInfo Id="XOB_Info_1">
+        <XOBUDSCode>CGTN</XOBUDSCode>
+        <Amount>200.00</Amount>
+        <ServicePeriodStart>20111207</ServicePeriodStart>
+        <ServicePeriodEnd>20111213</ServicePeriodEnd>
+        <ServiceUnits>7</ServiceUnits>
+        <ServiceUnitsMeasure>2</ServiceUnitsMeasure>
+      </XOBInfo>
+      <XOBInfo Id="XOB_Info_2">
+        <XOBUDSCode>CGTN</XOBUDSCode>
+        <Amount>200.00</Amount>
+        <ServicePeriodStart>20111221</ServicePeriodStart>
+        <ServicePeriodEnd>20111227</ServicePeriodEnd>
+        <ServiceUnits>7</ServiceUnits>
+        <ServiceUnitsMeasure>2</ServiceUnitsMeasure>
+      </XOBInfo>
+      <XOBInfo Id="XOB_Info_3">
+        <XOBUDSCode>1100</XOBUDSCode>
+        <Amount>911.11</Amount>
+        <ServicePeriodStart>20120101</ServicePeriodStart>
+        <ServicePeriodEnd>20120103</ServicePeriodEnd>
+        <ServiceUnits>3</ServiceUnits>
+        <ServiceUnitsMeasure>3</ServiceUnitsMeasure>
+      </XOBInfo>
+      <XOBInfo Id="XOB_Info_4">
+        <XOBUDSCode>2200</XOBUDSCode>
+        <Amount>-200.00</Amount>
+        <ServicePeriodStart>20111228</ServicePeriodStart>
+        <ServicePeriodEnd>20111231</ServicePeriodEnd>
+        <ServiceUnits>4</ServiceUnits>
+        <ServiceUnitsMeasure>3</ServiceUnitsMeasure>
+      </XOBInfo>
+    </Payment>
+  </Claim>
+</ClaimFile>

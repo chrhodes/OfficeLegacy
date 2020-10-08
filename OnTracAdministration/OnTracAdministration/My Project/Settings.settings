@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="OnTracAdministration_ontrac_UserGroup" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://ontrac/_vti_bin/usergroup.asmx</Value>
+    </Setting>
+    <Setting Name="OnTracAdministration_ontrac1_Webs" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://ontrac/_vti_bin/webs.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

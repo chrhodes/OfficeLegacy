@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CreateOnTracProjects", "CreateOnTracProjects\CreateOnTracProjects.vbproj", "{C18E7CDD-E62E-4104-9859-B1EF3A9FAEC3}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CreateOnTracProjects\\CreateOnTracProjects.vbproj
+		SccLocalPath1 = .
+		SccProjectFilePathRelativizedFromConnection1 = CreateOnTracProjects\\
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C18E7CDD-E62E-4104-9859-B1EF3A9FAEC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C18E7CDD-E62E-4104-9859-B1EF3A9FAEC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C18E7CDD-E62E-4104-9859-B1EF3A9FAEC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C18E7CDD-E62E-4104-9859-B1EF3A9FAEC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

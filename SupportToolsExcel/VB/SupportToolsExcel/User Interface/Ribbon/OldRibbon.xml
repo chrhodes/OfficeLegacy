@@ -1,0 +1,39 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" onLoad="OnLoad">
+  <ribbon>
+    <tabs>
+		  <tab id="SupportToolsExcel" label="Support Tools">
+			  <group id="Commands" label="Commands" visible="true">
+				  <button id="Config"
+						  label="Config"
+						  screentip="Display Config Task Pane"
+						  onAction="TaskPane_Config_Click"
+						  imageMso="HappyFace"/>
+        
+				  <button id="ITRs"
+						  label="ITRs"
+						  screentip="Display ITRs Task Pane"
+						  onAction="TaskPane_ITRs_Click"
+						  imageMso="HappyFace"/>
+
+          <button id="NetworkTrace"
+						  label="NetworkTrace"
+						  screentip="Display NetworkTrace Task Pane"
+						  onAction="TaskPane_NetworkTrace_Click"
+						  imageMso="HappyFace"/>
+   
+          <button id="ExcelUtil"
+						  label="ExcelUtil"
+						  screentip="Display ExcelUtil Task Pane"
+						  onAction="TaskPane_ExcelUtil_Click"
+						  imageMso="HappyFace"/>
+          
+          <button id="Help"
+						  label="Help"
+						  screentip="Display Help Task Pane"
+						  onAction="TaskPane_Help_Click"
+						  imageMso="HappyFace"/>
+			  </group>
+		  </tab>
+    </tabs>
+  </ribbon>
+</customUI>

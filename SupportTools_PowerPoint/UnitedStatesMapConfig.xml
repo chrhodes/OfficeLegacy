@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<UnitedStatesMap>
+	<Headings>
+	</Headings>
+	<Colors>
+		<Color Name="Red"		Value="255" />
+		<Color Name="Green"		Value="32768" />
+		<Color Name="Blue"		Value="16744448" />
+		<Color Name="Yellow"	Value="65535" />
+		<Color Name="White"		Value="16777215" />
+	</Colors>
+	<States>
+		<State ShapeName="AL" StateName="Alabama" TextLine2=""				ForeColor="Red" />
+		<State ShapeName="AK" StateName="Alaska" TextLine2=""					ForeColor="Green" />
+		<State ShapeName="AZ" StateName="Arizona" TextLine2="" 				ForeColor="Blue" />
+		<State ShapeName="AR" StateName="Arkansas" TextLine2="" 				ForeColor="Red" />
+		<State ShapeName="CA" StateName="California" TextLine2=""			ForeColor="Yellow" />
+		<State ShapeName="CO" StateName="Colorado" TextLine2=""				ForeColor="Blue" />
+		<State ShapeName="CT" StateName="Connecticut" TextLine2=""			ForeColor="Red" />
+		<State ShapeName="DE" StateName="Delaware" TextLine2=""				ForeColor="Green" />
+		<State ShapeName="DC" StateName="District of Columbia" TextLine2=""	ForeColor="Blue" />
+		<State ShapeName="FL" StateName="Florida" TextLine2=""				ForeColor="Red" />
+		<State ShapeName="GA" StateName="Gerorgia" TextLine2=""				ForeColor="Green" />
+		<State ShapeName="HI" StateName="Hawaii" TextLine2=""				ForeColor="Blue" />
+		<State ShapeName="ID" StateName="Idaho" TextLine2=""					ForeColor="Red" />
+		<State ShapeName="IL" StateName="Illinois" TextLine2="" 				ForeColor="Green" />
+		<State ShapeName="IN" StateName="Indiana" TextLine2=""				ForeColor="Blue" />
+		<State ShapeName="IA" StateName="Iowa" TextLine2=""					ForeColor="Red" />
+		<State ShapeName="KS" StateName="Kansas" TextLine2=""				ForeColor="Green" />
+		<State ShapeName="KY" StateName="Kentucky" TextLine2=""				ForeColor="Blue" />
+		<State ShapeName="LA" StateName="Louisiana" TextLine2=""				ForeColor="Red" />
+		<State ShapeName="ME" StateName="Maine" TextLine2=""					ForeColor="Green" />
+		<State ShapeName="MD" StateName="Maryland" TextLine2=""				ForeColor="Blue" />
+		<State ShapeName="MA" StateName="Massachusetts" TextLine2=""			ForeColor="Red" />
+		<State ShapeName="MI" StateName="Michigan" TextLine2=""				ForeColor="Green" />
+		<State ShapeName="MN" StateName="Minnesota" TextLine2=""				ForeColor="Blue" />
+		<State ShapeName="MS" StateName="Mississippi" TextLine2=""			ForeColor="Red" />
+		<State ShapeName="MO" StateName="Missouri" TextLine2="" 				ForeColor="Green" />
+		<State ShapeName="MT" StateName="Montana" TextLine2=""				ForeColor="Blue" />
+		<State ShapeName="NE" StateName="Nebraska" TextLine2=""				ForeColor="Red" />
+		<State ShapeName="NV" StateName="Nevada" TextLine2=""				ForeColor="Green" />
+		<State ShapeName="NH" StateName="New Hampshire" TextLine2=""			ForeColor="Blue" />
+		<State ShapeName="NJ" StateName="New Jersey" TextLine2=""			ForeColor="Red" />
+		<State ShapeName="NM" StateName="New Mexico" TextLine2=""			ForeColor="Green" />
+		<State ShapeName="NY" StateName="New York" TextLine2=""				ForeColor="Yellow" />
+		<State ShapeName="NC" StateName="North Carolina" TextLine2=""		ForeColor="Red" />
+		<State ShapeName="ND" StateName="North Dakota" TextLine2=""			ForeColor="Green" />
+		<State ShapeName="OH" StateName="Ohio" TextLine2="" 					ForeColor="Blue" />
+		<State ShapeName="OK" StateName="Oklahoma" TextLine2="" 				ForeColor="Red" />
+		<State ShapeName="OR" StateName="Oregon" TextLine2=""				ForeColor="Green" />
+		<State ShapeName="PA" StateName="Pennsylvania" TextLine2=""			ForeColor="Blue" />
+		<State ShapeName="PR" StateName="Puerto Rico" TextLine2=""			ForeColor="Red" />
+		<State ShapeName="RI" StateName="Rhode Island" TextLine2=""			ForeColor="Green" />
+		<State ShapeName="SC" StateName="South Carolina" TextLine2=""		ForeColor="Blue" />
+		<State ShapeName="SD" StateName="South Dakota" TextLine2=""			ForeColor="Red" />
+		<State ShapeName="TN" StateName="Tennessee" TextLine2=""				ForeColor="Green" />
+		<State ShapeName="TX" StateName="Texas" TextLine2=""					ForeColor="Blue" />
+		<State ShapeName="UT" StateName="Utah" TextLine2="" 					ForeColor="Red" />
+		<State ShapeName="VT" StateName="Vermont" TextLine2=""				ForeColor="Green" />
+		<State ShapeName="VA" StateName="Virginia" TextLine2=""				ForeColor="Blue" />
+		<State ShapeName="WA" StateName="Washington" TextLine2=""			ForeColor="Red" />
+		<State ShapeName="WV" StateName="West Virginia" TextLine2=""			ForeColor="Green" />
+		<State ShapeName="WI" StateName="Wisconsin" TextLine2=""				ForeColor="Blue" />
+		<State ShapeName="WY" StateName="Wyoming" TextLine2="" 				ForeColor="Red" />				
+	</States>
+</UnitedStatesMap>

@@ -1,0 +1,4 @@
+Determine if want to keep or remove Common Menu and Toolbar stuff.  Now that
+we have moved to OfficeAddinExcel, OfficeAddinWord, etc.  It may make more sense
+to abandon the common stuff, especially in Office2007 since the Ribbon interface
+makes all the old ToolBar stuff move to an Addins tab.

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<teams>
+  <team name="All IT" id="0">
+    <manager ext=""></manager>
+  </team>  
+  <team name="Data Services" id="1">
+    <manager ext="x3624">Christian Berke</manager>
+  </team>
+  <team name="eBusiness" id="2">
+    <manager ext="x3624">Christine Kellerman</manager>
+  </team>
+  <team name="Help Desk" id="3">
+    <manager ext="x4823">Jeff Cranney</manager>
+  </team>
+  <team name="IT Finance" id="4">
+    <manager ext="x3123">Sonia Alford</manager>
+  </team>
+  <team name="IT Operations" id="5">
+    <manager ext="x5044">Matt Hansberger</manager>
+  </team>
+  <team name="IT Producer" id="6">
+    <manager ext="x4484">Barbara Allan</manager>
+  </team>
+  <team name="ViewPoint" id="7">
+    <manager ext="x3373">Karen Hayden</manager>
+  </team>
+  <team name="IT Sales" id="8">
+    <manager ext="x6510">Kayleen Weeks</manager>
+  </team>
+  <team name="IT Service" id="9">
+    <manager ext="x8752">Pam Askins</manager>
+  </team>
+  <team name="Product Admin" id="10">
+    <manager ext="x7402 x8858">Christian Berke</manager>
+  </team>
+  <team name="Workflow" id="11">
+    <manager ext="x8681">Nedra Jerry</manager>
+  </team>
+  <team name="Other" id="12">
+    <manager ext="">Cameron Cosgrove</manager>
+  </team>  
+</teams>

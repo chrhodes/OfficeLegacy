@@ -1,0 +1,41 @@
+
+Using the Excel_Addin_With_Task_Panes_Template
+----------------------------------------------
+Some template variables do not expand correctly.  The following changes need to be made before
+the template will compile:
+
+1. Change $rootnamespace$ in Resources.Designer.vb to the root namespace of the solution.  See Project/Properties for correct value.
+   The values should be quoted, e.g.: "MyRootNameSpace"
+2. Change $rootnamespace$ in Settings.Designer.vb to the root namespace of the solution.
+
+The template will now compile, however, you may want to also change the following:
+
+3. Change Excel_Addin_With_Task_Panes_Template in Ribbon.vb to the root namespace of the solution.
+   The value should be a string.
+4. Change "CustomTaskPanes" and "Custom Task Panes" in Riboon.xml.  The other buttons will likely change
+   depending on your application.
+5. Update Globals.vb as appropriate.  THe first few Public Constants should be updated at a minimum.
+   Update NEWAPPNAME.
+6. Update NEWAPPNAME in App.Config logging to reflect the name chosen in Globals.
+7. Globaly rename 
+
+
+Notes from before
+-----------------
+Programmatically create Teams sheet.
+Programmatically create Lookups sheet.
+Programmatically create Budget Rollup sheet
+Programmatically create Survey Rollup sheet
+Programmatically create Survey Mapping sheet
+
+Remove ConvertTo5To1 when surveys redone 5 to 1 scale instead of 1 to 5 scale.
+Currently 1 is Strongly Agree.  Should make 5 be Strongly agree.  Previously
+higher values were better.
+
+Figure out what to do with Kurtosis and Skew formulas.  How to handle Not Applicable data.
+
+Make cTeamNameCell a drop down populated from Lookup sheet.
+
+Add formula to questions sheets to automatically set follow-up question based on value of primary question
+Add code to prepopulate "b" questions with 110 width and not b questions with primary.
+Add comments to question sheet columns to indicate above should be checked.

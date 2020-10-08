@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ExcelSharePointExplorer", "ExcelSharePointExplorer\ExcelSharePointExplorer.vbproj", "{2F1C1573-FE60-4558-92D8-F7E596654E4F}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ExcelSharePointExplorer\\ExcelSharePointExplorer.vbproj
+		SccLocalPath1 = .
+		SccProjectFilePathRelativizedFromConnection1 = ExcelSharePointExplorer\\
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F1C1573-FE60-4558-92D8-F7E596654E4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F1C1573-FE60-4558-92D8-F7E596654E4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F1C1573-FE60-4558-92D8-F7E596654E4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F1C1573-FE60-4558-92D8-F7E596654E4F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

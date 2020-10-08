@@ -1,0 +1,45 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" onLoad="OnLoad">
+  <ribbon>
+    <tabs>
+		<tab id="CustomTaskPanes" label="Custom Task Panes">
+			<group id="ScorecardProcessing" label="Scorecard Processing" visible="true">
+				<button id="Config"
+						label="Config"
+						screentip="Display Config Task Pane"
+						onAction="ConfigTaskPaneClick"
+						imageMso="HappyFace"/>
+				
+				<button id="Worksheets"
+						label="Worksheets"
+						screentip="Display Worksheets Task Pane"
+						onAction="WorksheetsTaskPaneClick"
+						imageMso="HappyFace"/>	
+				
+				<button id="OnTimeDelivery"
+						label="On-Time Delivery"
+						screentip="Display On-Time Delivery Task Pane"
+						onAction="OnTimeDeliveryTaskPaneClick"
+						imageMso="HappyFace"/>	
+				
+				<button id="Surveys"
+						label="Surveys"
+						screentip="Display Surveys Task Pane"
+						onAction="SurveysTaskPaneClick"
+						imageMso="HappyFace"/>
+
+				<button id="Results"
+						label="Results"
+						screentip="Display Results Task Pane"
+						onAction="ResultsTaskPaneClick"
+						imageMso="HappyFace"/>
+				
+				<button id="Help"
+						label="Help"
+						screentip="Display Help Task Pane"
+						onAction="HelpTaskPaneClick"
+						imageMso="HappyFace"/>
+			</group>
+		</tab>
+    </tabs>
+  </ribbon>
+</customUI>

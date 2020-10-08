@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SupportToolsWord", "SupportToolsWord\SupportToolsWord.vbproj", "{9804052A-479E-46F4-8316-853FC1A2729D}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SupportToolsWord\\SupportToolsWord.vbproj
+		SccProjectName1 = \u0022$/Office/SupportToolsWord/VB/SupportToolsWord\u0022,\u0020UKRBAAAA
+		SccLocalPath1 = SupportToolsWord
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9804052A-479E-46F4-8316-853FC1A2729D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9804052A-479E-46F4-8316-853FC1A2729D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9804052A-479E-46F4-8316-853FC1A2729D}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{9804052A-479E-46F4-8316-853FC1A2729D}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{9804052A-479E-46F4-8316-853FC1A2729D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9804052A-479E-46F4-8316-853FC1A2729D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9804052A-479E-46F4-8316-853FC1A2729D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9804052A-479E-46F4-8316-853FC1A2729D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{9804052A-479E-46F4-8316-853FC1A2729D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{9804052A-479E-46F4-8316-853FC1A2729D}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,39 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" onLoad="OnLoad">
+  <ribbon>
+    <tabs>
+		<tab id="SharePointAdministration" label="SharePoint Administration">
+			<group id="NewApp" label="New App" visible="true">
+				<button id="Config"
+						label="Config"
+						screentip="Display Config Task Pane"
+						onAction="TaskPane_Config_Click"
+						imageMso="HappyFace"/>
+				
+				<button id="CreateSheets"
+						label="CreateSheets"
+						screentip="Display CreateSheets Task Pane"
+						onAction="TaskPane_CreateSheets_Click"
+						imageMso="HappyFace"/>	
+				
+				<button id="One"
+						label="One"
+						screentip="Display One Task Pane"
+						onAction="TaskPane_One_Click"
+						imageMso="HappyFace"/>	
+				
+				<button id="Two"
+						label="Two"
+						screentip="Display Two Task Pane"
+						onAction="TaskPane_Two_Click"
+						imageMso="HappyFace"/>
+				
+				<button id="Help"
+						label="Help"
+						screentip="Display Help Task Pane"
+						onAction="TaskPane_Help_Click"
+						imageMso="HappyFace"/>
+			</group>
+		</tab>
+    </tabs>
+  </ribbon>
+</customUI>

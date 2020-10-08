@@ -1,0 +1,1410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://life.pacificlife.net/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://life.pacificlife.net/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://life.pacificlife.net/">
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetWin32Account">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetWin32AccountResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetWin32AccountResult" type="tns:ArrayOfWin32AccountS" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfWin32AccountS">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Win32AccountS" type="tns:Win32AccountS" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Win32AccountS">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Caption" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Description" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Domain" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="InstallDate" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LocalAccount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SIDType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetWin32BaseBoard">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetWin32BaseBoardResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetWin32BaseBoardResult" type="tns:ArrayOfWin32BaseBoardS" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfWin32BaseBoardS">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Win32BaseBoardS" type="tns:Win32BaseBoardS" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Win32BaseBoardS">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Caption" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CreationClassName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Depth" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Description" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Height" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="HostingBoard" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="HotSwappable" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="InstallDate" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Manufacturer" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Model" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OtherIndentifyingInfo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PartNumber" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PoweredOn" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Product" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Removable" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Replaceable" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RequirementsDescription" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RequiresDaughterBoard" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SerialNumber" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SKU" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SlotLayout" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SpecialRequirements" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Tag" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Version" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Weight" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Width" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetWin32BIOS">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetWin32BIOSResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetWin32BIOSResult" type="tns:ArrayOfWin32BIOSS" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfWin32BIOSS">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Win32BIOSS" type="tns:Win32BIOSS" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Win32BIOSS">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="BuildNumber" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Caption" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodeSet" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CurrentLanguage" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Description" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="IdentificationCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="InstallableLanguages" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="InstallDate" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LanguageEdition" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Manufacturer" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OtherTargetOS" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PrimaryBIOS" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReleaseDate" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SerialNumber" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SMBIOSBIOSVersion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SMBIOSMajorVersion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SMBIOSMinorVersion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SMBIOSPresent" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SoftwareElementID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SoftwareElementState" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TargetOperatingSystem" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Version" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetWin32DiskDrive">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetWin32DiskDriveResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetWin32DiskDriveResult" type="tns:ArrayOfWin32DiskDriveS" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfWin32DiskDriveS">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Win32DiskDriveS" type="tns:Win32DiskDriveS" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Win32DiskDriveS">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Availability" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BytesPerSector" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Caption" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CompressionMethod" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ConfigManagerErrorCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ConfigManagerUserConfig" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CreationClassName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DefaultBlockSize" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Description" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DeviceID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ErrorCleared" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ErrorDescription" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ErrorMethodology" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FirmwareRevision" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Index" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="InstallDate" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="InterfaceType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LastErrorCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Manufacturer" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MaxBlockSize" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MaxMediaSize" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MeidaLoaded" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MinBlockSize" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Model" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NeedsCleaning" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumberOfMediaSupported" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Partitions" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PNPDeviceID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PowerManagementSupported" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SCSIBus" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SCSILogigalUnit" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SCSIPort" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SCSITargetId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SectorsPerTrack" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SerialNumber" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Signature" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Size" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="StatusInfo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SystemCreationClassName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SystemName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TotalCylinders" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TotalHeads" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TotalSectors" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TotalTracks" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TracksPerCylinder" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetWin32Environment">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetWin32EnvironmentResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetWin32EnvironmentResult" type="tns:ArrayOfWin32EnvironmentS" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfWin32EnvironmentS">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Win32EnvironmentS" type="tns:Win32EnvironmentS" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Win32EnvironmentS">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Caption" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Description" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="InstallDate" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SystemVariable" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="VaribleName" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetWin32Group">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetWin32GroupResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetWin32GroupResult" type="tns:ArrayOfWin32GroupS" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfWin32GroupS">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Win32GroupS" type="tns:Win32GroupS" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Win32GroupS">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Caption" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Description" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Domain" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="InstallDate" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LocalAccount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SIDType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetWin32LogicalDisk">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetWin32LogicalDiskResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetWin32LogicalDiskResult" type="tns:ArrayOfWin32LogicalDiskS" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfWin32LogicalDiskS">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Win32LogicalDiskS" type="tns:Win32LogicalDiskS" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Win32LogicalDiskS">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Access" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Availability" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BlockSize" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Caption" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Compressed" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ConfigManagerErrorCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ConfigManagerUserConfig" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CreationClassName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Description" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DeviceID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DriveType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ErrorCleared" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ErrorDescription" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ErrorMethodology" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FileSystem" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FreeSpace" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="InstallDate" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LastErrorCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MaximumComponentLength" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MediaType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumberOfBlocks" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PNPDeviceID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PowerManagementSupported" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ProviderName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Purpose" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="QuotasDisabled" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="QuotasIncomplete" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="QuotasRebuilding" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Size" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="StatusInfo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SupportsDiskQuotas" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SupportsFileBasedCompression" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SystemCreationClassName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SystemName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="VolumeDirty" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="VolumeName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="VolumeSerialNumber" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetWin32MappedLogicalDisk">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetWin32MappedLogicalDiskResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetWin32MappedLogicalDiskResult" type="tns:ArrayOfWin32MappedLogicalDiskS" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfWin32MappedLogicalDiskS">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Win32MappedLogicalDiskS" type="tns:Win32MappedLogicalDiskS" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Win32MappedLogicalDiskS">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Access" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Availability" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BlockSize" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Caption" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Compressed" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ConfigManagerErrorCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ConfigManagerUserConfig" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CreationClassName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Description" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DeviceID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ErrorCleared" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ErrorDescription" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ErrorMethodology" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FileSystem" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FreeSpace" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="InstallDate" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LastErrorCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MaximumComponentLength" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumberOfBlocks" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PNPDeviceID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PowerManagementSupported" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ProviderName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Purpose" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="QuotasDisabled" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="QuotasIncomplete" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="QuotasRebuilding" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SessionID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Size" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SupportsDiskQuotas" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SupportsFileBasedCompression" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SystemCreationClassName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SystemName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="VolumeName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="VolumneSerialNumber" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetWin32MemoryDevice">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetWin32MemoryDeviceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetWin32MemoryDeviceResult" type="tns:ArrayOfWin32MemoryDeviceS" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfWin32MemoryDeviceS">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Win32MemoryDeviceS" type="tns:Win32MemoryDeviceS" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Win32MemoryDeviceS">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Access" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Availability" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BlockSize" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Caption" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ConfigManagerErrorCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ConfigManagerUserConfig" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CorrectableError" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CreationClassName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Description" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DeviceID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EndingAddress" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ErrorAccess" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ErrorAddress" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ErrorCleared" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ErrorDataOrder" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ErrorDescription" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ErrorGranularity" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ErrorInfo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ErrorMethodology" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ErrorResolution" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ErrorTime" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ErrorTransferSize" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="InstallDate" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LastErrorCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumberOfBlocks" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OtherErrorDescription" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PNPDeviceID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PowerManagementSupported" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Purpose" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="StartingAddress" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="StatusInfo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SystemCreationClassName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SystemLevelAddress" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SystemName" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetWin32NetworkAdapter">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetWin32NetworkAdapterResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetWin32NetworkAdapterResult" type="tns:ArrayOfWin32NetworkAdapterS" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfWin32NetworkAdapterS">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Win32NetworkAdapterS" type="tns:Win32NetworkAdapterS" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Win32NetworkAdapterS">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="AdapterType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AdapterTypeID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AutoSense" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Availability" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Caption" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ConfigManagerErrorCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ConfigManagerUserConfig" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CreationClassName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Description" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DeviceID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ErrorCleared" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ErrorDescription" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="GUID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Index" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="InstallDate" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Installed" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="InterfaceIndex" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LastErrorCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MACAddress" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Manufacturer" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MaxNumberControlled" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MaxSpeed" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NetConnectionID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NetConnectionStatus" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NetEnabled" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PermanentAddress" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PhysicalAdapter" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PNPDeviceID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PowerManagementSupported" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ProductName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ServiceName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Speed" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="StatusInfo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SystemCreationClassName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SystemName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TimeOfLastReset" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetWin32OperatingSystem">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetWin32OperatingSystemResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetWin32OperatingSystemResult" type="tns:ArrayOfWin32OperatingSystemS" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfWin32OperatingSystemS">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Win32OperatingSystemS" type="tns:Win32OperatingSystemS" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Win32OperatingSystemS">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="BootDevice" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BuildNumber" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BuildType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Caption" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodeSet" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CountryCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CreatetionClassName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CSCreationClassName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CSDVersion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CSName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CurrentTimeZone" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DataExecutionPrevention_Available" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DataExecutionPrevention_32BitApplications" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DataExecutionPrevention_Drivers" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DataExecutionPrevention_SupportPolicy" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Debug" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Description" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Distributed" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EncryptionLevel" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ForegroundApplicationBoost" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FreePhysicalMemory" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FreeSpaceInPagingFiles" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FreeVirtualMemory" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="InstallDate" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LargeSystemCache" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LastBootUpTime" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LocalDateTime" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Locale" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Manufacturer" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MaxNumberOfProcesses" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MaxProcessMemorySize" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumberOfLicensedUsers" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumberOfProcesses" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumberOfUsers" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OperatingSystemSKU" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Organization" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OSArchitecture" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OSLanguage" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OSProductSuite" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OSType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OtherTypeDescription" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PAEEnabled" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PlusProductId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PlusVersionNumber" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Primary" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ProductType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="QuantumLength" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="QuantumType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RegisteredUser" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SerialNumber" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ServicePackMajorVersion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ServicePackMinorVersion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SizeStoredInPagingFiles" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SuiteMask" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SystemDevice" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TotalSwapSpaceSize" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TotalVirtualMemorySize" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TotalVisibleMemorySize" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Version" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="WindowsDirectory" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetWin32PhysicalMedia">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetWin32PhysicalMediaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetWin32PhysicalMediaResult" type="tns:ArrayOfWin32PhysicalMediaS" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfWin32PhysicalMediaS">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Win32PhysicalMediaS" type="tns:Win32PhysicalMediaS" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Win32PhysicalMediaS">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Capacity" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Caption" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CleanerMedia" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CreationClassName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Description" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="HotSwappable" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="InstallDate" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Manufacturer" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MediaDescription" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MediaType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Model" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OtherIdentifyingInfo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PartNumber" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PoweredOn" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Removeable" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Replaceable" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SerialNumber" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SKU" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Tag" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Version" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="WriteProtectOn" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetWin32PhysicalMemory">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetWin32PhysicalMemoryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetWin32PhysicalMemoryResult" type="tns:ArrayOfWin32PhysicalMemoryS" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfWin32PhysicalMemoryS">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Win32PhysicalMemoryS" type="tns:Win32PhysicalMemoryS" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Win32PhysicalMemoryS">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="BankLabel" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Capacity" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Caption" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CreationClassName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DataWidth" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Description" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DeviceLocator" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FormFactor" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="HotSwappable" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="InstallDate" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="InterleaveDataDepth" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="InterleavePosition" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Manufacturer" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MemoryType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Model" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OtherIdentifyingInfo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PartNumber" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PositionInRow" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PoweredOn" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Removeable" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Replaceable" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SerialNumber" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SKU" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Speed" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Tag" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TotalWidth" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TypeDetail" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Version" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetWin32Processor">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetWin32ProcessorResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetWin32ProcessorResult" type="tns:ArrayOfWin32ProcessorS" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfWin32ProcessorS">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Win32ProcessorS" type="tns:Win32ProcessorS" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Win32ProcessorS">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="AddressWidth" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Architecture" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Availability" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Caption" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ConfigManagerErrorCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ConfigManagerUserConfig" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CpuStatus" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CreationClassName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CurrentClockSpeed" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CurrentVoltage" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DataWidth" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Description" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DeviceID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ErrorCleared" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ErrorDescription" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ExtClock" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Family" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="InstallDate" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="L2CacheSize" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="L2CacheSpeed" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="L3CacheSize" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="L3CacheSpeed" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LastErrorCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Level" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LoadPercentage" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Manufacturer" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MaxClockSpeed" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumberOfCores" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumberOfLogicalProcessors" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OtherFamilyDescription" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PNPDeviceID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ProcessorId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ProcessorType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Revision" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Role" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SocketDescription" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="StatusInfo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Stepping" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SystemCreationClassName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SystemName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UniqueId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UpgradeMethod" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Version" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="VoltageCaps" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetWin32Service">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetWin32ServiceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetWin32ServiceResult" type="tns:ArrayOfWin32ServiceS" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfWin32ServiceS">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Win32ServiceS" type="tns:Win32ServiceS" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Win32ServiceS">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="AcceptPause" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AcceptStop" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Caption" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CheckPoint" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CreationClassName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Description" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DesktopInteract" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DisplayName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ErrorControl" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ExitCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="InstallDate" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PathName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ProcessId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ServiceSpecificExitCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ServiceType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Started" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="StartMode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="StartName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="State" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SystemCreationClassName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SystemName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TagId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="WaitHint" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetWin32SystemAccount">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetWin32SystemAccountResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetWin32SystemAccountResult" type="tns:ArrayOfWin32SystemAccountS" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfWin32SystemAccountS">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Win32SystemAccountS" type="tns:Win32SystemAccountS" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Win32SystemAccountS">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Caption" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Description" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Domain" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="InstallDate" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LocalAccount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SIDType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetWin32SystemBIOS">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetWin32SystemBIOSResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetWin32SystemBIOSResult" type="tns:ArrayOfWin32SystemBIOSS" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfWin32SystemBIOSS">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Win32SystemBIOSS" type="tns:Win32SystemBIOSS" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Win32SystemBIOSS">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="BiosCharacteristics" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BIOSVersion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BuildNumber" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Caption" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodeSet" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CurrentLanguage" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Description" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="IndentificationCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="InstallableLanguages" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="InstallDate" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LanguageEdition" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ListOfLanguages" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Manufacturer" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OtherTargetOS" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PrimaryBIOS" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReleaseDate" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SerialNumber" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SMBIOSBIOSVersion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SMBIOSMajorVersion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SMBIOSMinorVersion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SMBIOSPresent" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SoftwareElementID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SoftwareElementState" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TargetOperatingSystem" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Version" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetWin32UserAccount">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetWin32UserAccountResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetWin32UserAccountResult" type="tns:ArrayOfWin32UserAccountS" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfWin32UserAccountS">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Win32UserAccountS" type="tns:Win32UserAccountS" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Win32UserAccountS">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Caption" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Description" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Domain" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="InstallDate" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LocalAccount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SIDType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="HelloWorldSoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWorld" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWorldResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetWin32AccountSoapIn">
+    <wsdl:part name="parameters" element="tns:GetWin32Account" />
+  </wsdl:message>
+  <wsdl:message name="GetWin32AccountSoapOut">
+    <wsdl:part name="parameters" element="tns:GetWin32AccountResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetWin32BaseBoardSoapIn">
+    <wsdl:part name="parameters" element="tns:GetWin32BaseBoard" />
+  </wsdl:message>
+  <wsdl:message name="GetWin32BaseBoardSoapOut">
+    <wsdl:part name="parameters" element="tns:GetWin32BaseBoardResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetWin32BIOSSoapIn">
+    <wsdl:part name="parameters" element="tns:GetWin32BIOS" />
+  </wsdl:message>
+  <wsdl:message name="GetWin32BIOSSoapOut">
+    <wsdl:part name="parameters" element="tns:GetWin32BIOSResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetWin32DiskDriveSoapIn">
+    <wsdl:part name="parameters" element="tns:GetWin32DiskDrive" />
+  </wsdl:message>
+  <wsdl:message name="GetWin32DiskDriveSoapOut">
+    <wsdl:part name="parameters" element="tns:GetWin32DiskDriveResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetWin32EnvironmentSoapIn">
+    <wsdl:part name="parameters" element="tns:GetWin32Environment" />
+  </wsdl:message>
+  <wsdl:message name="GetWin32EnvironmentSoapOut">
+    <wsdl:part name="parameters" element="tns:GetWin32EnvironmentResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetWin32GroupSoapIn">
+    <wsdl:part name="parameters" element="tns:GetWin32Group" />
+  </wsdl:message>
+  <wsdl:message name="GetWin32GroupSoapOut">
+    <wsdl:part name="parameters" element="tns:GetWin32GroupResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetWin32LogicalDiskSoapIn">
+    <wsdl:part name="parameters" element="tns:GetWin32LogicalDisk" />
+  </wsdl:message>
+  <wsdl:message name="GetWin32LogicalDiskSoapOut">
+    <wsdl:part name="parameters" element="tns:GetWin32LogicalDiskResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetWin32MappedLogicalDiskSoapIn">
+    <wsdl:part name="parameters" element="tns:GetWin32MappedLogicalDisk" />
+  </wsdl:message>
+  <wsdl:message name="GetWin32MappedLogicalDiskSoapOut">
+    <wsdl:part name="parameters" element="tns:GetWin32MappedLogicalDiskResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetWin32MemoryDeviceSoapIn">
+    <wsdl:part name="parameters" element="tns:GetWin32MemoryDevice" />
+  </wsdl:message>
+  <wsdl:message name="GetWin32MemoryDeviceSoapOut">
+    <wsdl:part name="parameters" element="tns:GetWin32MemoryDeviceResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetWin32NetworkAdapterSoapIn">
+    <wsdl:part name="parameters" element="tns:GetWin32NetworkAdapter" />
+  </wsdl:message>
+  <wsdl:message name="GetWin32NetworkAdapterSoapOut">
+    <wsdl:part name="parameters" element="tns:GetWin32NetworkAdapterResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetWin32OperatingSystemSoapIn">
+    <wsdl:part name="parameters" element="tns:GetWin32OperatingSystem" />
+  </wsdl:message>
+  <wsdl:message name="GetWin32OperatingSystemSoapOut">
+    <wsdl:part name="parameters" element="tns:GetWin32OperatingSystemResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetWin32PhysicalMediaSoapIn">
+    <wsdl:part name="parameters" element="tns:GetWin32PhysicalMedia" />
+  </wsdl:message>
+  <wsdl:message name="GetWin32PhysicalMediaSoapOut">
+    <wsdl:part name="parameters" element="tns:GetWin32PhysicalMediaResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetWin32PhysicalMemorySoapIn">
+    <wsdl:part name="parameters" element="tns:GetWin32PhysicalMemory" />
+  </wsdl:message>
+  <wsdl:message name="GetWin32PhysicalMemorySoapOut">
+    <wsdl:part name="parameters" element="tns:GetWin32PhysicalMemoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetWin32ProcessorSoapIn">
+    <wsdl:part name="parameters" element="tns:GetWin32Processor" />
+  </wsdl:message>
+  <wsdl:message name="GetWin32ProcessorSoapOut">
+    <wsdl:part name="parameters" element="tns:GetWin32ProcessorResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetWin32ServiceSoapIn">
+    <wsdl:part name="parameters" element="tns:GetWin32Service" />
+  </wsdl:message>
+  <wsdl:message name="GetWin32ServiceSoapOut">
+    <wsdl:part name="parameters" element="tns:GetWin32ServiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetWin32SystemAccountSoapIn">
+    <wsdl:part name="parameters" element="tns:GetWin32SystemAccount" />
+  </wsdl:message>
+  <wsdl:message name="GetWin32SystemAccountSoapOut">
+    <wsdl:part name="parameters" element="tns:GetWin32SystemAccountResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetWin32SystemBIOSSoapIn">
+    <wsdl:part name="parameters" element="tns:GetWin32SystemBIOS" />
+  </wsdl:message>
+  <wsdl:message name="GetWin32SystemBIOSSoapOut">
+    <wsdl:part name="parameters" element="tns:GetWin32SystemBIOSResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetWin32UserAccountSoapIn">
+    <wsdl:part name="parameters" element="tns:GetWin32UserAccount" />
+  </wsdl:message>
+  <wsdl:message name="GetWin32UserAccountSoapOut">
+    <wsdl:part name="parameters" element="tns:GetWin32UserAccountResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WMIInfoWSSoap">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldSoapIn" />
+      <wsdl:output message="tns:HelloWorldSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32Account">
+      <wsdl:input message="tns:GetWin32AccountSoapIn" />
+      <wsdl:output message="tns:GetWin32AccountSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32BaseBoard">
+      <wsdl:input message="tns:GetWin32BaseBoardSoapIn" />
+      <wsdl:output message="tns:GetWin32BaseBoardSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32BIOS">
+      <wsdl:input message="tns:GetWin32BIOSSoapIn" />
+      <wsdl:output message="tns:GetWin32BIOSSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32DiskDrive">
+      <wsdl:input message="tns:GetWin32DiskDriveSoapIn" />
+      <wsdl:output message="tns:GetWin32DiskDriveSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32Environment">
+      <wsdl:input message="tns:GetWin32EnvironmentSoapIn" />
+      <wsdl:output message="tns:GetWin32EnvironmentSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32Group">
+      <wsdl:input message="tns:GetWin32GroupSoapIn" />
+      <wsdl:output message="tns:GetWin32GroupSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32LogicalDisk">
+      <wsdl:input message="tns:GetWin32LogicalDiskSoapIn" />
+      <wsdl:output message="tns:GetWin32LogicalDiskSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32MappedLogicalDisk">
+      <wsdl:input message="tns:GetWin32MappedLogicalDiskSoapIn" />
+      <wsdl:output message="tns:GetWin32MappedLogicalDiskSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32MemoryDevice">
+      <wsdl:input message="tns:GetWin32MemoryDeviceSoapIn" />
+      <wsdl:output message="tns:GetWin32MemoryDeviceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32NetworkAdapter">
+      <wsdl:input message="tns:GetWin32NetworkAdapterSoapIn" />
+      <wsdl:output message="tns:GetWin32NetworkAdapterSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32OperatingSystem">
+      <wsdl:input message="tns:GetWin32OperatingSystemSoapIn" />
+      <wsdl:output message="tns:GetWin32OperatingSystemSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32PhysicalMedia">
+      <wsdl:input message="tns:GetWin32PhysicalMediaSoapIn" />
+      <wsdl:output message="tns:GetWin32PhysicalMediaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32PhysicalMemory">
+      <wsdl:input message="tns:GetWin32PhysicalMemorySoapIn" />
+      <wsdl:output message="tns:GetWin32PhysicalMemorySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32Processor">
+      <wsdl:input message="tns:GetWin32ProcessorSoapIn" />
+      <wsdl:output message="tns:GetWin32ProcessorSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32Service">
+      <wsdl:input message="tns:GetWin32ServiceSoapIn" />
+      <wsdl:output message="tns:GetWin32ServiceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32SystemAccount">
+      <wsdl:input message="tns:GetWin32SystemAccountSoapIn" />
+      <wsdl:output message="tns:GetWin32SystemAccountSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32SystemBIOS">
+      <wsdl:input message="tns:GetWin32SystemBIOSSoapIn" />
+      <wsdl:output message="tns:GetWin32SystemBIOSSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32UserAccount">
+      <wsdl:input message="tns:GetWin32UserAccountSoapIn" />
+      <wsdl:output message="tns:GetWin32UserAccountSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WMIInfoWSSoap" type="tns:WMIInfoWSSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap:operation soapAction="http://life.pacificlife.net/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32Account">
+      <soap:operation soapAction="http://life.pacificlife.net/GetWin32Account" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32BaseBoard">
+      <soap:operation soapAction="http://life.pacificlife.net/GetWin32BaseBoard" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32BIOS">
+      <soap:operation soapAction="http://life.pacificlife.net/GetWin32BIOS" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32DiskDrive">
+      <soap:operation soapAction="http://life.pacificlife.net/GetWin32DiskDrive" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32Environment">
+      <soap:operation soapAction="http://life.pacificlife.net/GetWin32Environment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32Group">
+      <soap:operation soapAction="http://life.pacificlife.net/GetWin32Group" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32LogicalDisk">
+      <soap:operation soapAction="http://life.pacificlife.net/GetWin32LogicalDisk" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32MappedLogicalDisk">
+      <soap:operation soapAction="http://life.pacificlife.net/GetWin32MappedLogicalDisk" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32MemoryDevice">
+      <soap:operation soapAction="http://life.pacificlife.net/GetWin32MemoryDevice" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32NetworkAdapter">
+      <soap:operation soapAction="http://life.pacificlife.net/GetWin32NetworkAdapter" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32OperatingSystem">
+      <soap:operation soapAction="http://life.pacificlife.net/GetWin32OperatingSystem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32PhysicalMedia">
+      <soap:operation soapAction="http://life.pacificlife.net/GetWin32PhysicalMedia" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32PhysicalMemory">
+      <soap:operation soapAction="http://life.pacificlife.net/GetWin32PhysicalMemory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32Processor">
+      <soap:operation soapAction="http://life.pacificlife.net/GetWin32Processor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32Service">
+      <soap:operation soapAction="http://life.pacificlife.net/GetWin32Service" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32SystemAccount">
+      <soap:operation soapAction="http://life.pacificlife.net/GetWin32SystemAccount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32SystemBIOS">
+      <soap:operation soapAction="http://life.pacificlife.net/GetWin32SystemBIOS" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32UserAccount">
+      <soap:operation soapAction="http://life.pacificlife.net/GetWin32UserAccount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WMIInfoWSSoap12" type="tns:WMIInfoWSSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap12:operation soapAction="http://life.pacificlife.net/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32Account">
+      <soap12:operation soapAction="http://life.pacificlife.net/GetWin32Account" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32BaseBoard">
+      <soap12:operation soapAction="http://life.pacificlife.net/GetWin32BaseBoard" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32BIOS">
+      <soap12:operation soapAction="http://life.pacificlife.net/GetWin32BIOS" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32DiskDrive">
+      <soap12:operation soapAction="http://life.pacificlife.net/GetWin32DiskDrive" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32Environment">
+      <soap12:operation soapAction="http://life.pacificlife.net/GetWin32Environment" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32Group">
+      <soap12:operation soapAction="http://life.pacificlife.net/GetWin32Group" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32LogicalDisk">
+      <soap12:operation soapAction="http://life.pacificlife.net/GetWin32LogicalDisk" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32MappedLogicalDisk">
+      <soap12:operation soapAction="http://life.pacificlife.net/GetWin32MappedLogicalDisk" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32MemoryDevice">
+      <soap12:operation soapAction="http://life.pacificlife.net/GetWin32MemoryDevice" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32NetworkAdapter">
+      <soap12:operation soapAction="http://life.pacificlife.net/GetWin32NetworkAdapter" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32OperatingSystem">
+      <soap12:operation soapAction="http://life.pacificlife.net/GetWin32OperatingSystem" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32PhysicalMedia">
+      <soap12:operation soapAction="http://life.pacificlife.net/GetWin32PhysicalMedia" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32PhysicalMemory">
+      <soap12:operation soapAction="http://life.pacificlife.net/GetWin32PhysicalMemory" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32Processor">
+      <soap12:operation soapAction="http://life.pacificlife.net/GetWin32Processor" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32Service">
+      <soap12:operation soapAction="http://life.pacificlife.net/GetWin32Service" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32SystemAccount">
+      <soap12:operation soapAction="http://life.pacificlife.net/GetWin32SystemAccount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32SystemBIOS">
+      <soap12:operation soapAction="http://life.pacificlife.net/GetWin32SystemBIOS" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWin32UserAccount">
+      <soap12:operation soapAction="http://life.pacificlife.net/GetWin32UserAccount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WMIInfoWS">
+    <wsdl:port name="WMIInfoWSSoap" binding="tns:WMIInfoWSSoap">
+      <soap:address location="http://localhost/SystemManagement/wmiinfows.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WMIInfoWSSoap12" binding="tns:WMIInfoWSSoap12">
+      <soap12:address location="http://localhost/SystemManagement/wmiinfows.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

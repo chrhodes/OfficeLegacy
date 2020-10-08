@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="ExcelSharePointExplorer_learnsharepoint_lists_Lists" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://learnsharepoint/_vti_bin/lists.asmx</Value>
+    </Setting>
+    <Setting Name="ExcelSharePointExplorer_lpsps01v_Admin" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://lpsps01v:14107/_vti_adm/admin.asmx</Value>
+    </Setting>
+    <Setting Name="ExcelSharePointExplorer_learnsharepoint_ITTechSvc_Lists" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://learnsharepoint/_vti_bin/views.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

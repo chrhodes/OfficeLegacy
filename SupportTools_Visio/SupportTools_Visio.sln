@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupportTools_Visio", "SupportTools_Visio\SupportTools_Visio.csproj", "{3C3897DE-F23C-435B-ACB2-242D72A1E74F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddinHelper", "..\AddinHelper\AddinHelper\AddinHelper.csproj", "{DCD47414-B5DF-490A-A72B-CD66C68C9973}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://lptfs.life.pacificlife.net:8080/tfs/defaultcollection
+		SccProjectUniqueName0 = ..\\AddinHelper\\AddinHelper\\AddinHelper.csproj
+		SccProjectName0 = ../AddinHelper/AddinHelper
+		SccLocalPath0 = ..\\AddinHelper\\AddinHelper
+		SccProjectUniqueName1 = SupportTools_Visio\\SupportTools_Visio.csproj
+		SccProjectName1 = SupportTools_Visio
+		SccLocalPath1 = SupportTools_Visio
+		SccLocalPath2 = .
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		MATRIX|Any CPU = MATRIX|Any CPU
+		PARTHENON|Any CPU = PARTHENON|Any CPU
+		Release|Any CPU = Release|Any CPU
+		TRON|Any CPU = TRON|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C3897DE-F23C-435B-ACB2-242D72A1E74F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C3897DE-F23C-435B-ACB2-242D72A1E74F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C3897DE-F23C-435B-ACB2-242D72A1E74F}.MATRIX|Any CPU.ActiveCfg = Release|Any CPU
+		{3C3897DE-F23C-435B-ACB2-242D72A1E74F}.MATRIX|Any CPU.Build.0 = Release|Any CPU
+		{3C3897DE-F23C-435B-ACB2-242D72A1E74F}.PARTHENON|Any CPU.ActiveCfg = Release|Any CPU
+		{3C3897DE-F23C-435B-ACB2-242D72A1E74F}.PARTHENON|Any CPU.Build.0 = Release|Any CPU
+		{3C3897DE-F23C-435B-ACB2-242D72A1E74F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C3897DE-F23C-435B-ACB2-242D72A1E74F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C3897DE-F23C-435B-ACB2-242D72A1E74F}.TRON|Any CPU.ActiveCfg = Release|Any CPU
+		{3C3897DE-F23C-435B-ACB2-242D72A1E74F}.TRON|Any CPU.Build.0 = Release|Any CPU
+		{DCD47414-B5DF-490A-A72B-CD66C68C9973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCD47414-B5DF-490A-A72B-CD66C68C9973}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCD47414-B5DF-490A-A72B-CD66C68C9973}.MATRIX|Any CPU.ActiveCfg = Release|Any CPU
+		{DCD47414-B5DF-490A-A72B-CD66C68C9973}.MATRIX|Any CPU.Build.0 = Release|Any CPU
+		{DCD47414-B5DF-490A-A72B-CD66C68C9973}.PARTHENON|Any CPU.ActiveCfg = Release|Any CPU
+		{DCD47414-B5DF-490A-A72B-CD66C68C9973}.PARTHENON|Any CPU.Build.0 = Release|Any CPU
+		{DCD47414-B5DF-490A-A72B-CD66C68C9973}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCD47414-B5DF-490A-A72B-CD66C68C9973}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCD47414-B5DF-490A-A72B-CD66C68C9973}.TRON|Any CPU.ActiveCfg = Release|Any CPU
+		{DCD47414-B5DF-490A-A72B-CD66C68C9973}.TRON|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

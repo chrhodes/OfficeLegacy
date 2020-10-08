@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--
+DCMExcelConfig.xml
+
+This file contains configuration information used by the DCM Addin for Excel.
+
+The file consists of the following element hierarchy
+
+<Files>
+  <File>
+    <Column />
+	<Column />
+	...
+  </File>
+  <File>
+  </File>
+  ...
+</Files>
+
+The <Files> element contains no attributes.  It must contain one or more <File> elements.
+
+The <File> element supports the following attributes which must all be specified:
+  NamePattern       Regular Expression that describes the pattern 
+                    that must be matched by an input file in order to be processed.
+                    Keep in mind the XML special characters, e.g. "&" and
+                    use suitable substitutions, i.e. "&amp;".  Alternatively use a
+                    single "." if the character can otherwise be ignored.
+  DataStartRow      The stating row in the input file containing the data
+  DataOutputRow     The starting row in the processed file in which output will be placed.
+  
+The <File> element must contain one or more <Column> elements.
+
+The <Column> element supports the following attributes which must all be specified:
+  Name              The name of the column.  NB. the Name field is used and not the value
+                    from the header in the data file.  This allows some renaming flexibilty.
+  DataType          The data type of column.  This controls how excel 
+                    will handle the input and will format the output.
+  Width             The width of the output column
+  Wrap              Whether the output column will wrap text (based on the Width)
+  FontSize          The size of the font for data in the column exclusive of the header row
+  HeaderFontSize    The size of the font for data in the header row of the column
+  HeaderBold        Whether the header row of the column is bold
+  HeaderWrap        Wheter the header row of the column will wrap text (based on the Width)
+  
+NOTE:
+  The <Columns> element must contain one <Column> for each column in the source file.
+  All must be listed and they must be in the same order as the source file.  The reason 
+  is discussed more fully in ProcessFile.vb
+-->
+<Files>
+	<File NamePattern="ABC\.txt" DataStartRow="1" DataOutputRow="1" Debug="True">
+		<Columns>
+			<Column Name="Column1"           DataType="Text" Width="10" Wrap="False" FontSize="12" HeaderFontSize="16" HeaderBold="True" HeaderWrap="True"/>
+			<Column Name="Column2"           DataType="Text" Width="10" Wrap="False" FontSize="12" HeaderFontSize="16" HeaderBold="True" HeaderWrap="True"/>
+			<Column Name="Column3"           DataType="Text" Width="10" Wrap="False" FontSize="12" HeaderFontSize="16" HeaderBold="True" HeaderWrap="True"/>
+		</Columns>
+	</File>
+	<File NamePattern="DNR.*\.csv" DataStartRow="1" DataOutputRow="1" Debug="False">
+		<Columns>
+			<Column Name="First Name"        DataType="Text"    Width="10" Wrap="False" FontSize="12" HeaderFontSize="16" HeaderBold="True"  HeaderWrap="True"/>
+			<Column Name="Last Name"         DataType="Text"    Width="10" Wrap="False" FontSize="12" HeaderFontSize="16" HeaderBold="False" HeaderWrap="True"/>
+			<Column Name="Tax ID"            DataType="Text"    Width="10" Wrap="False" FontSize="10" HeaderFontSize="16" HeaderBold="True"  HeaderWrap="True"/>
+			<Column Name="Status Code"       DataType="Text"    Width="10" Wrap="False" FontSize="12" HeaderFontSize="16" HeaderBold="True"  HeaderWrap="True"/>
+			<Column Name="Status Reason"     DataType="Text"    Width="15" Wrap="False" FontSize="12" HeaderFontSize="16" HeaderBold="True"  HeaderWrap="True"/>
+			<Column Name="Status Start Date" DataType="MDYDate" Width="10" Wrap="False" FontSize="12" HeaderFontSize="16" HeaderBold="True"  HeaderWrap="True"/>
+			<Column Name="Status End Date"   DataType="YMDDate" Width="10" Wrap="False" FontSize="12" HeaderFontSize="16" HeaderBold="True"  HeaderWrap="False"/>
+			<Column Name="Street1"           DataType="Text"    Width="20" Wrap="False" FontSize="12" HeaderFontSize="16" HeaderBold="True"  HeaderWrap="True"/>
+			<Column Name="City"              DataType="Text"    Width="10" Wrap="False" FontSize="12" HeaderFontSize="16" HeaderBold="True"  HeaderWrap="True"/>
+			<Column Name="State"             DataType="Text"    Width="10" Wrap="False" FontSize="12" HeaderFontSize="16" HeaderBold="True"  HeaderWrap="True"/>
+			<Column Name="Zip Code"          DataType="Text"    Width="10" Wrap="False" FontSize="16" HeaderFontSize="16" HeaderBold="True"  HeaderWrap="True"/>			
+		</Columns>		
+	</File>
+	<File NamePattern="DMR.*\.csv" DataStartRow="1" DataOutputRow="1" Debug="False">
+		<Columns>
+			<Column Name="First Name"        DataType="Text"    Width="10" Wrap="False" FontSize="12" HeaderFontSize="16" HeaderBold="True"  HeaderWrap="True"/>
+			<Column Name="Last Name"         DataType="Text"    Width="10" Wrap="False" FontSize="12" HeaderFontSize="16" HeaderBold="False" HeaderWrap="True"/>
+			<Column Name="Tax ID"            DataType="Text"    Width="10" Wrap="False" FontSize="10" HeaderFontSize="16" HeaderBold="True"  HeaderWrap="True"/>
+			<Column Name="Status Code"       DataType="Text"    Width="10" Wrap="False" FontSize="12" HeaderFontSize="16" HeaderBold="True"  HeaderWrap="True"/>
+			<Column Name="Status Reason"     DataType="Text"    Width="15" Wrap="False" FontSize="12" HeaderFontSize="16" HeaderBold="True"  HeaderWrap="True"/>
+			<Column Name="Status Start Date" DataType="Text"    Width="10" Wrap="False" FontSize="12" HeaderFontSize="16" HeaderBold="True"  HeaderWrap="True"/>
+			<Column Name="Status End Date"   DataType="YMDDate" Width="10" Wrap="False" FontSize="12" HeaderFontSize="16" HeaderBold="True"  HeaderWrap="False"/>
+			<Column Name="Street1"           DataType="Text"    Width="20" Wrap="False" FontSize="12" HeaderFontSize="16" HeaderBold="True"  HeaderWrap="True"/>
+			<Column Name="City"              DataType="Text"    Width="10" Wrap="False" FontSize="12" HeaderFontSize="16" HeaderBold="True"  HeaderWrap="True"/>
+			<Column Name="State"             DataType="Text"    Width="10" Wrap="False" FontSize="12" HeaderFontSize="16" HeaderBold="True"  HeaderWrap="True"/>
+			<Column Name="Zip Code"          DataType="Text"    Width="10" Wrap="False" FontSize="16" HeaderFontSize="16" HeaderBold="True"  HeaderWrap="True"/>			
+		</Columns>		
+	</File>
+<!--
+	<File NamePattern="E&OINHERIT.*\.csv" DataStartRow="1" DataOutputRow="1" Debug="True">
+
+	The following NamePattern uses the XML escape for the "&" character
+-->
+	<File NamePattern="E&amp;OINHERIT.*\.csv" DataStartRow="1" DataOutputRow="1" Debug="True">
+		<Columns>
+			<Column Name="TaxID/SSN"                DataType="Text"    Width="10" Wrap="False" FontSize="12" HeaderFontSize="16" HeaderBold="True"  HeaderWrap="True"/>
+			<Column Name="Last Name"                DataType="Text"    Width="15" Wrap="False" FontSize="12" HeaderFontSize="16" HeaderBold="True"  HeaderWrap="True"/>
+			<Column Name="First Name"               DataType="Text"    Width="15" Wrap="False" FontSize="12" HeaderFontSize="16" HeaderBold="True"  HeaderWrap="True"/>
+			<Column Name="Middle Name"              DataType="Text"    Width="10" Wrap="False" FontSize="12" HeaderFontSize="16" HeaderBold="True"  HeaderWrap="True"/>
+			<Column Name="Effective Date"           DataType="MDYDate" Width="10" Wrap="False" FontSize="12" HeaderFontSize="16" HeaderBold="True"  HeaderWrap="True"/>
+			<Column Name="Expiry Date"              DataType="MDYDate" Width="10" Wrap="False" FontSize="12" HeaderFontSize="16" HeaderBold="True"  HeaderWrap="True"/>
+			<Column Name="Provider Party Name"      DataType="Text"    Width="30" Wrap="False" FontSize="12" HeaderFontSize="16" HeaderBold="True"  HeaderWrap="True"/>
+			<Column Name="Provider Party TaxID/SSN" DataType="Text"    Width="10" Wrap="False" FontSize="12" HeaderFontSize="16" HeaderBold="True"  HeaderWrap="True"/>
+		</Columns>		
+	</File>
+<!--
+	<File NamePattern="E&OFU.*\.csv" DataStartRow="1" DataOutputRow="1" Debug="True">
+
+	The following NamePattern ignores the "&" by accepting any character in the position.
+-->
+	<File NamePattern="E.OFU.*\.csv" DataStartRow="1" DataOutputRow="1" Debug="False">
+		<Columns>
+			<Column Name="AgentId"                  DataType="Text"    Width="12" Wrap="False" FontSize="12" HeaderFontSize="16" HeaderBold="True"  HeaderWrap="True"/>
+			<Column Name="TIN"                      DataType="Text"    Width="15" Wrap="False" FontSize="12" HeaderFontSize="16" HeaderBold="True"  HeaderWrap="True"/>
+			<Column Name="OrgName"                  DataType="Text"    Width="25" Wrap="False" FontSize="12" HeaderFontSize="16" HeaderBold="True"  HeaderWrap="True"/>
+			<Column Name="LastName"                 DataType="Text"    Width="15" Wrap="False" FontSize="12" HeaderFontSize="16" HeaderBold="True"  HeaderWrap="True"/>
+			<Column Name="FirstName"                DataType="Text"    Width="15" Wrap="False" FontSize="12" HeaderFontSize="16" HeaderBold="True"  HeaderWrap="True"/>
+			<Column Name="MiddleName"               DataType="Text"    Width="10" Wrap="False" FontSize="12" HeaderFontSize="16" HeaderBold="True"  HeaderWrap="True"/>
+			<Column Name="OfficeId"                 DataType="Text"    Width="15" Wrap="False" FontSize="12" HeaderFontSize="16" HeaderBold="True"  HeaderWrap="True"/>
+			<Column Name="Office Name"              DataType="Text"    Width="20" Wrap="False" FontSize="12" HeaderFontSize="16" HeaderBold="True"  HeaderWrap="True"/>
+			<Column Name="Office Tax Id"            DataType="Text"    Width="15" Wrap="False" FontSize="12" HeaderFontSize="16" HeaderBold="True"  HeaderWrap="True"/>
+			<Column Name="Expiry Date"              DataType="MDYDate" Width="10" Wrap="False" FontSize="12" HeaderFontSize="16" HeaderBold="True"  HeaderWrap="True"/>
+			<Column Name="Status"                   DataType="Text"    Width="20" Wrap="False" FontSize="12" HeaderFontSize="16" HeaderBold="True"  HeaderWrap="True"/>
+			<Column Name="Carrier"                  DataType="Text"    Width="20" Wrap="False" FontSize="12" HeaderFontSize="16" HeaderBold="True"  HeaderWrap="True"/>
+			<Column Name="ProviderPartyName"        DataType="Text"    Width="25" Wrap="False" FontSize="12" HeaderFontSize="16" HeaderBold="True"  HeaderWrap="True"/>
+			<Column Name="Line1"                    DataType="Text"    Width="25" Wrap="True"  FontSize="12" HeaderFontSize="16" HeaderBold="True"  HeaderWrap="True"/>
+			<Column Name="Line2"                    DataType="Text"    Width="15" Wrap="True"  FontSize="12" HeaderFontSize="16" HeaderBold="True"  HeaderWrap="True"/>
+			<Column Name="Line3"                    DataType="Text"    Width="15" Wrap="True"  FontSize="12" HeaderFontSize="16" HeaderBold="True"  HeaderWrap="True"/>
+			<Column Name="City"                     DataType="Text"    Width="15" Wrap="False" FontSize="12" HeaderFontSize="16" HeaderBold="True"  HeaderWrap="True"/>
+			<Column Name="State"                    DataType="Text"    Width="15" Wrap="False" FontSize="12" HeaderFontSize="16" HeaderBold="True"  HeaderWrap="True"/>
+			<Column Name="Zip"                      DataType="Text"    Width="15" Wrap="False" FontSize="12" HeaderFontSize="16" HeaderBold="True"  HeaderWrap="True"/>
+			<Column Name="FaxNumber"                DataType="Text"    Width="15" Wrap="False" FontSize="12" HeaderFontSize="16" HeaderBold="True"  HeaderWrap="True"/>
+			<Column Name="Today's Date"             DataType="MDYDate" Width="10" Wrap="False" FontSize="12" HeaderFontSize="16" HeaderBold="True"  HeaderWrap="True"/>
+		</Columns>		
+	</File>
+</Files>
+

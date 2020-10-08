@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupportTools_Excel", "SupportTools_Excel\SupportTools_Excel.csproj", "{90EEA2C1-ACE6-4CBE-91AC-6FE8D69B5BC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMOHelper", "..\SMOHelper\SMOHelper.csproj", "{E572DFB9-4A2F-4D14-887D-0E5EB1D36B2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddinHelper", "..\AddinHelper\AddinHelper\AddinHelper.csproj", "{DCD47414-B5DF-490A-A72B-CD66C68C9973}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://infinityrhodes.visualstudio.com/defaultcollection
+		SccProjectUniqueName0 = ..\\SMOHelper\\SMOHelper.csproj
+		SccProjectName0 = ../SMOHelper
+		SccAuxPath0 = https://infinityrhodes.visualstudio.com/defaultcollection
+		SccLocalPath0 = ..\\SMOHelper
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName1 = ..\\AddinHelper\\AddinHelper\\AddinHelper.csproj
+		SccProjectName1 = ../AddinHelper/AddinHelper
+		SccAuxPath1 = https://infinityrhodes.visualstudio.com/defaultcollection
+		SccLocalPath1 = ..\\AddinHelper\\AddinHelper
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90EEA2C1-ACE6-4CBE-91AC-6FE8D69B5BC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90EEA2C1-ACE6-4CBE-91AC-6FE8D69B5BC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90EEA2C1-ACE6-4CBE-91AC-6FE8D69B5BC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90EEA2C1-ACE6-4CBE-91AC-6FE8D69B5BC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E572DFB9-4A2F-4D14-887D-0E5EB1D36B2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E572DFB9-4A2F-4D14-887D-0E5EB1D36B2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E572DFB9-4A2F-4D14-887D-0E5EB1D36B2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E572DFB9-4A2F-4D14-887D-0E5EB1D36B2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCD47414-B5DF-490A-A72B-CD66C68C9973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCD47414-B5DF-490A-A72B-CD66C68C9973}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCD47414-B5DF-490A-A72B-CD66C68C9973}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCD47414-B5DF-490A-A72B-CD66C68C9973}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

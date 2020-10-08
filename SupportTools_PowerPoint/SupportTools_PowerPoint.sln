@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupportTools_PowerPoint", "SupportTools_PowerPoint\SupportTools_PowerPoint.csproj", "{A0D095A6-85C7-4E21-8C92-7705712F3B30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddinHelper", "..\AddinHelper\AddinHelper\AddinHelper.csproj", "{DCD47414-B5DF-490A-A72B-CD66C68C9973}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLExtensionMethods", "..\..\Enterprise Admin Console (EAC) Applications\EACSharePointAdministration\XMLExtensionMethods\XMLExtensionMethods.csproj", "{53EA5A18-A8D8-47DF-A69E-271EB6190E48}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://lptfs.life.pacificlife.net:8080/tfs/defaultcollection
+		SccProjectUniqueName0 = ..\\AddinHelper\\AddinHelper\\AddinHelper.csproj
+		SccProjectName0 = ../AddinHelper/AddinHelper
+		SccAuxPath0 = http://lptfs.life.pacificlife.net:8080/tfs/defaultcollection
+		SccLocalPath0 = ..\\AddinHelper\\AddinHelper
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName1 = ..\\..\\Enterprise\u0020Admin\u0020Console\u0020(EAC)\u0020Applications\\EACSharePointAdministration\\XMLExtensionMethods\\XMLExtensionMethods.csproj
+		SccProjectName1 = ../../Enterprise\u0020Admin\u0020Console\u0020(EAC)\u0020Applications/EACSharePointAdministration/XMLExtensionMethods
+		SccAuxPath1 = http://lptfs.life.pacificlife.net:8080/tfs/defaultcollection
+		SccLocalPath1 = ..\\..\\Enterprise\u0020Admin\u0020Console\u0020(EAC)\u0020Applications\\EACSharePointAdministration\\XMLExtensionMethods
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0D095A6-85C7-4E21-8C92-7705712F3B30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0D095A6-85C7-4E21-8C92-7705712F3B30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0D095A6-85C7-4E21-8C92-7705712F3B30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0D095A6-85C7-4E21-8C92-7705712F3B30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCD47414-B5DF-490A-A72B-CD66C68C9973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCD47414-B5DF-490A-A72B-CD66C68C9973}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCD47414-B5DF-490A-A72B-CD66C68C9973}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCD47414-B5DF-490A-A72B-CD66C68C9973}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53EA5A18-A8D8-47DF-A69E-271EB6190E48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53EA5A18-A8D8-47DF-A69E-271EB6190E48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53EA5A18-A8D8-47DF-A69E-271EB6190E48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53EA5A18-A8D8-47DF-A69E-271EB6190E48}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

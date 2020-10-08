@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Scorecard Processor", "Scorecard Processor\Scorecard Processor.vbproj", "{AA95F680-6EC1-4D00-9AE0-C93AF3CDABE8}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Scorecard ProcessorSetup", "Scorecard ProcessorSetup\Scorecard ProcessorSetup", "{D4852122-ECC9-46EA-A242-BA383E8FE360}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Scorecard\u0020Processor\\Scorecard\u0020Processor.vbproj
+		SccLocalPath1 = .
+		SccProjectFilePathRelativizedFromConnection1 = Scorecard\u0020Processor\\
+		SccProjectUniqueName2 = Scorecard\u0020ProcessorSetup\\Scorecard\u0020ProcessorSetup
+		SccLocalPath2 = .
+		SccProjectFilePathRelativizedFromConnection2 = Scorecard\u0020ProcessorSetup\\
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA95F680-6EC1-4D00-9AE0-C93AF3CDABE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA95F680-6EC1-4D00-9AE0-C93AF3CDABE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA95F680-6EC1-4D00-9AE0-C93AF3CDABE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA95F680-6EC1-4D00-9AE0-C93AF3CDABE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4852122-ECC9-46EA-A242-BA383E8FE360}.Debug|Any CPU.ActiveCfg = Debug
+		{D4852122-ECC9-46EA-A242-BA383E8FE360}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
